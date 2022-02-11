@@ -91,10 +91,10 @@
 
          display: flex;
          justify-content: center;
-         align-items: center ;
+         align-items: center;
          
 
-        a {
+        a{
             position: relative;
             padding: 10px 30px;
             margin: 6% 2%;
