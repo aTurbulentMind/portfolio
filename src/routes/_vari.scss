@@ -1,31 +1,32 @@
 //colors
 
-$textColorMain: #fdfdfa;
-$backgroundMain:#050207;
-$backgroundSecond:#1e0c22;
-$backgroundThird: #1d012b;
-$extra:#04c9fa;
-$highlight:#d668f1;
-$gradient:linear-gradient(90deg, rgb(3, 7, 8) 0%, rgb(6, 8, 15) 35%, rgb(17, 10, 26) 100%);
+$textMain: rgb(2, 3, 3);
+$textSecond: #071f49;
+$backgroundMain:rgb(254, 255, 254);
+$backgroundSecond:rgb(230, 230, 230);
+$backgroundHallow:rgba(230, 230, 230, 0.5);
+$extra:#0a3176;
+$highlight:#13675e;
+$gradient:linear-gradient(90deg, rgb(14, 14, 5) 0%, rgb(19, 48, 51) 35%, rgb(62, 35, 92) 100%);
 
-
-$transitSpeed: 0.3s;
 
 //font stack
-$mainFont:'Handlee', cursive;
-$secondaryFont: 'Pattaya', sans-serif;
+$mainFont: 'Jost', sans-serif;
 
 
+
+//extra
+
+$transitSpeed: 0.3s;
 
 // mixins
 
 @mixin glassBack() {
-    background: #0d122225;
-    box-shadow: 0 3px 12px 3px $backgroundSecond;
+    background:#0a327628;
+    box-shadow: 0 3px 8px 3px $textMain;
     backdrop-filter: blur(1.5px);
     -webkit-backdrop-filter: blur(1.5px);
-    border-radius: 10px;
-    border: 1px solid #0d132363;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 
