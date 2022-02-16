@@ -26,9 +26,11 @@
 
    
      <div class="social">
-        <a href="/testim"> <h2>Some completed work:</h2>
+        <a href="/testim/"> <h2>Some completed work:</h2>
         <img src="img/debtBanner.png" alt=""></a>
-        <p>I find the most energy when helping somebody succeed. Everyone deserves their little bits of success. The excitement of the new opportunities ignights a bonfire of inspiration in the owner. New levels of expansion and growth shown through analytics allow cognizant use of data to further improve the performance of the product. We can work for your content to bring that change to your life.</p>
+        <p>I find the most energy when helping somebody succeed. Everyone deserves their little bits of victory. The excitement of the new opportunities ignights a bonfire of inspiration in the owner. New levels of expansion and growth shown through analytics allow cognizant use of data to further improve the performance of the product. We can work for your content to bring that change to your life. <br><br><br>
+
+        <a href="/testim/">Check out some completed work.</a></p>
     </div>
 
     <h1><a href="testim"> Testimonials</a> </h1>
@@ -90,11 +92,8 @@
     
 
     .social{
-
-
-
     img{
-        margin-bottom: -20px;
+        margin: -8% 10%;
     }
     }
 //entry banner

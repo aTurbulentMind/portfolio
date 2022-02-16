@@ -1,7 +1,7 @@
 <body>
 
     <h1>Prices</h1>
-    <p>The price of product varies between the scope of the project. </p>
+    <p>The price of product varies between the scope of the project. I'm an economic human and always attempt to give people deal for the product they request. Just remember that cheap things are not always good and good things are not always cheap.</p>
 
 
     <h1>Services</h1>
@@ -16,10 +16,10 @@
 
     
     <h2>Development</h2>
-    <p >Through direct communication we can develop a conduit to the connected community of the internet. Development is the whole of the process. Connecting the UI/UX, design and actual product is the focus of development. We will turn your future sucess into the steps of today through the tried and true practice of hard work. &nbsp; &nbsp; &nbsp; </p>
+    <p >Through direct communication we can develop a conduit to the connected community of the internet. Development is the whole of the process. Connecting the UI/UX, design and actual product is the focus of development. We will turn your future sucess into the steps of today through the tried and true practice of hard work.  </p>
 
     <h2>Search Engine Optimization</h2>
-    <p >SEO is the process of getting your website to the top page of search engines. nbsp; &nbsp; &nbsp; </p>
+    <p >SEO is the process of getting your website to the top page of search engines. To quote Wikipedia "(SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines." Studies show people will probably not make it to the second page of a search engine. So let's get you visable to the world. </p>
     
     
 

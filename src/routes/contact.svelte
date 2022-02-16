@@ -282,7 +282,7 @@
         color: $backgroundMain;
         text-transform: uppercase;
         padding: 5px;
-        margin:0 5%;
+        margin:-5% 8%;
 
         &:hover {
            transition: all 0.2s ease-in-out;
