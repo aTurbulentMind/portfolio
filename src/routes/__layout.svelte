@@ -1,15 +1,11 @@
-<body>
-   
 
-   <div class="label">
-     <img src="img/logo.png" alt="the debt net name and logo">
-   </div>
+<body>
 
 	<nav sveltekit:prefetch class="navbar">
     <ul class="navbar-nav">
       <li class="logo">
-        <a sveltekit:prefetch href="/" class="nav-link">
-          <span class="link-text logo-text">Debt$Net</span>
+        <a href="/" class="nav-link">
+          <span class="link-text logo-text">Lantern <br> Light <br> Media </span>
           <svg
             aria-hidden="true"
             focusable="false"
@@ -37,52 +33,37 @@
       </li>
 
       <li class="nav-item">
-        <a href="tel: +8005528397/" class="nav-link">
-         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
-			<path d="M26 29h-.2C6.2 27.9 3.4 11.3 3 6.2C2.9 4.6 4.1 3.1 5.8 3h5.5c.8 0 1.6.5 1.9 1.3L14.6 8c.3.7.1 1.6-.4 2.2l-2.1 2.1c.7 3.9 3.7 6.9 7.6 7.6l2.2-2.1c.6-.6 1.4-.7 2.2-.4l3.8 1.5c.7.3 1.2 1 1.2 1.9V26c-.1 1.7-1.4 3-3.1 3zM6 5c-.6 0-1 .4-1 1v.1C5.5 12 8.4 26 25.9 27c.6 0 1-.4 1.1-.9V20.7l-3.8-1.5l-2.9 2.9l-.4-.1c-8.7-1.1-9.9-9.8-9.9-9.9l-.1-.5l2.8-2.9L11.3 5H6z" fill="currentColor" class="fa-secondary" /><path fill="currentColor" class="fa-primary" d="M20 4v2h4.6L18 12.6l1.4 1.4L26 7.4V12h2V4z"/></svg>
-          <span class="link-text">+1(800)552-8397</span>
+        <a href="/testim/" class="nav-link">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"><path d="M16 3C8.832 3 3 8.832 3 16s5.832 13 13 13s13-5.832 13-13S23.168 3 16 3zm0 2c6.065 0 11 4.935 11 11s-4.935 11-11 11S5 22.065 5 16S9.935 5 16 5zm-5 7c-2.094 0-3.61 1.207-3.61 1.207l1.22 1.586S9.692 14 11.001 14s2.39.793 2.39.793l1.22-1.586C14.608 13.207 13.093 12 11 12zm10 0c-2.094 0-3.61 1.207-3.61 1.207l1.22 1.586S19.692 14 21.001 14s2.39.793 2.39.793l1.22-1.586C24.608 13.207 23.093 12 21 12zm-10.19 7l-1.72 1a8.111 8.111 0 0 0 2.87 2.896c.297.176.604.333.923.47a7.894 7.894 0 0 0 2.031.56a7.988 7.988 0 0 0 2.172 0a7.953 7.953 0 0 0 4.572-2.293A8.14 8.14 0 0 0 22.91 20l-1.72-1a5.996 5.996 0 0 1-6.795 2.783a5.922 5.922 0 0 1-1.436-.611A6.02 6.02 0 0 1 10.811 19z" fill="currentColor" class="fa-secondary"/></svg>
+          <span class="link-text">Testimonials</span>
         </a>
       </li>
 
       <li class="nav-item">
-        <a sveltekit:prefetch href="/staff/" class="nav-link">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 28 28"><g fill="none"><path d="M17.254 11a2.25 2.25 0 0 1 2.25 2.25v6.249a5.501 5.501 0 0 1-11.002 0V13.25a2.25 2.25 0 0 1 2.25-2.25h6.502zm0 1.5h-6.502a.75.75 0 0 0-.75.75v6.249a4.001 4.001 0 0 0 8.002 0V13.25a.75.75 0 0 0-.75-.75zM4.25 11h4.156a3.243 3.243 0 0 0-.817 1.5H4.25a.75.75 0 0 0-.75.75v5.249a3.001 3.001 0 0 0 4.238 2.735c.133.49.324.956.564 1.392A4.501 4.501 0 0 1 2 18.499V13.25A2.25 2.25 0 0 1 4.25 11zm19.5 0A2.25 2.25 0 0 1 26 13.25v5.25a4.5 4.5 0 0 1-6.298 4.127l.056-.102c.214-.406.387-.837.511-1.289A3 3 0 0 0 24.5 18.5v-5.25a.75.75 0 0 0-.749-.75h-3.333A3.242 3.242 0 0 0 19.6 11h4.151zM14 3a3.5 3.5 0 1 1 0 7a3.5 3.5 0 0 1 0-7zm8.003 1a3 3 0 1 1 0 6a3 3 0 0 1 0-6zM5.997 4a3 3 0 1 1 0 6a3 3 0 0 1 0-6zM14 4.5a2 2 0 1 0 0 4a2 2 0 0 0 0-4zm8.003 1a1.5 1.5 0 1 0 0 3a1.5 1.5 0 0 0 0-3zm-16.006 0a1.5 1.5 0 1 0 0 3a1.5 1.5 0 0 0 0-3z" fill="currentColor" class="fa-secondary"/></g></svg>
-          <span class="link-text">Staff & Our Story</span>
+        <a href="/about/" class="nav-link">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 28 28"><g fill="none"><path d="M6.5 7A1.5 1.5 0 0 0 5 8.5v4A1.5 1.5 0 0 0 6.5 14h5a1.5 1.5 0 0 0 1.5-1.5v-4A1.5 1.5 0 0 0 11.5 7h-5zM21 10.5a2.5 2.5 0 1 1-5 0a2.5 2.5 0 0 1 5 0zm-7 5v.25A4.25 4.25 0 0 0 18.25 20h.5A4.25 4.25 0 0 0 23 15.75v-.25a1.5 1.5 0 0 0-1.5-1.5h-6a1.5 1.5 0 0 0-1.5 1.5zM5.754 4a3.75 3.75 0 0 0-3.75 3.75v12.5A3.75 3.75 0 0 0 5.754 24H22.25A3.75 3.75 0 0 0 26 20.25V7.75A3.75 3.75 0 0 0 22.25 4H5.755zm-2.25 3.75a2.25 2.25 0 0 1 2.25-2.25H22.25a2.25 2.25 0 0 1 2.25 2.25v12.5a2.25 2.25 0 0 1-2.25 2.25H5.755a2.25 2.25 0 0 1-2.25-2.25V7.75z" fill="currentColor"  class="fa-secondary"/></g></svg>
+          <span class="link-text">About</span>
         </a>
       </li>
 
       <li class="nav-item">
-        <a sveltekit:prefetch href="/products/" class="nav-link">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 15 15"><g fill="none"><path d="M9.5 14.5h4a1 1 0 0 0 1-1v-12a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1zm0 0H4m2.5-3v3m2-9h6m-4.5 6h3m-11.5-8h7v8h-7a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1z" stroke="currentColor" class="fa-secondary"/></g></svg>
-          <span class="link-text">Products, Services & Features</span>
+        <a href="/services/" class="nav-link">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M20 2a3 3 0 0 1 3 3v2h-2v12a3 3 0 0 1-3 3H4a3 3 0 0 1-3-3v-2h16v2a1 1 0 0 0 .883.993L18 20a1 1 0 0 0 .993-.883L19 19V4H6a1 1 0 0 0-.993.883L5 5v10H3V5a3 3 0 0 1 3-3h14z" fill="currentColor" class="fa-secondary"/></svg>
+          <span class="link-text">Pricing & Services</span>
+        </a>
+      </li>
+        
+      <li class="nav-item">
+        <a href="/contact/" class="nav-link">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 24 24"><path d="M20 2H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h3v3.767L13.277 18H20c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm0 14h-7.277L9 18.233V16H4V4h16v12z" fill="currentColor"/><path d="M7 7h10v2H7zm0 4h7v2H7z" fill="currentColor" class="fa-secondary"/></svg>
+          <span class="link-text">Contact </span>
         </a>
       </li>
 
-      <li class="nav-item">
-        <a sveltekit:prefetch href="/contact/" class="nav-link">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48"><g fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M24.8 33h2.7C34.404 33 40 27.404 40 20.5S34.404 8 27.5 8h-7C13.596 8 8 13.596 8 20.5c0 8.06 4.596 12.88 9.43 15.786c2.426 1.458 4.87 2.4 6.716 2.977c.228.071.447.137.654.197V33zm2 9s-.764-.129-2-.463C19.59 40.125 6 35.05 6 20.5C6 12.492 12.492 6 20.5 6h7C35.508 6 42 12.492 42 20.5S35.508 35 27.5 35h-.7v7z" fill="currentColor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M27.691 12.482c1.03.684 1.806 1.793 1.806 3.28c0 1.578-.636 2.738-1.667 3.448a4.523 4.523 0 0 1-1.33.614v1.532a1.5 1.5 0 0 1-3 0v-2.797a1.5 1.5 0 0 1 1.4-1.497c.554-.037.974-.147 1.227-.322a.698.698 0 0 0 .24-.272c.06-.12.13-.334.13-.707c0-.313-.122-.552-.467-.782c-.392-.26-1.022-.452-1.779-.476c-.748-.024-1.475.122-2.01.381c-.536.26-.733.552-.788.767a1.5 1.5 0 1 1-2.906-.746c.345-1.341 1.348-2.217 2.386-2.72c1.04-.505 2.263-.718 3.413-.681c1.143.036 2.363.324 3.345.978z" fill="currentColor"/><path d="M27 27a2 2 0 1 1-4 0a2 2 0 0 1 4 0z" fill="currentColor" class="fa-secondary"/></g></svg>
-          <span class="link-text">Contact & Support</span>
-        </a>
-      </li>
-      <div class="hide">
-      <li class="nav-item">
-        <a sveltekit:prefetch href="/resources/" class="nav-link">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20"><g fill="none"><path d="M6 2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H6z" fill="currentColor"/><path d="M13 6.5a.5.5 0 0 1-.41.492L12.5 7h-5a.5.5 0 0 1-.09-.992L7.5 6h5a.5.5 0 0 1 .5.5zm0 3.5a.5.5 0 0 1-.41.492l-.09.008h-5a.5.5 0 0 1-.09-.992L7.5 9.5h5a.5.5 0 0 1 .5.5zm0 3.5a.5.5 0 0 1-.41.492L12.5 14h-5a.5.5 0 0 1-.09-.992L7.5 13h5a.5.5 0 0 1 .5.5z" fill="currentColor" class="fa-secondary"/></g></svg>
-          <span class="link-text">Affiliates & Requirements</span>
-        </a>
-      </li>
-      
-      <li class="nav-item">
-        <a sveltekit:prefetch href="/extra/" class="nav-link">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><g fill="none"><path d="M3.5 5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5h-2zM4 9V8h1v1H4zm3.5-2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM1 4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2a2 2 0 0 1 2 2v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 10.5V4zm11.5 6.5a.5.5 0 0 1-.5-.5V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v6.5A1.5 1.5 0 0 0 3.5 12h9a1.5 1.5 0 0 0 1.5-1.5V6a1 1 0 0 0-1-1v5a.5.5 0 0 1-.5.5z" fill="currentColor" class="fa-secondary"/></g></svg>
-          <span class="link-text">Extras</span>
-        </a>
-      </li>
-      </div>
 
       <li class="nav-item">
-        <a sveltekit:prefetch href="/" class="nav-link">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M3 13h1v7c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-7h1a1 1 0 0 0 .707-1.707l-9-9a.999.999 0 0 0-1.414 0l-9 9A1 1 0 0 0 3 13zm7 7v-5h4v5h-4zm2-15.586l6 6V15l.001 5H16v-5c0-1.103-.897-2-2-2h-4c-1.103 0-2 .897-2 2v5H6v-9.586l6-6z" fill="currentColor" class="fa-secondary"/></svg>
+        <a href="/" class="nav-link">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100"><path d="M50 0C22.404 0 0 22.404 0 50s22.404 50 50 50c27.546 0 49.911-22.324 49.992-49.852A1.5 1.5 0 0 0 100 50a1.5 1.5 0 0 0-.006-.133C99.922 22.332 77.552 0 50 0zm1.4 3.035a47.4 47.4 0 0 1 5.366.455c1.14.462 2.19 1.013 2.814 1.547c1.806 1.46 10.49 5.86 6.21.984c-.064-.13-.1-.234-.144-.347C83.917 12.115 97 29.514 97 50c0 22.294-15.494 40.928-36.307 45.766c1.241-.667 2.67-1.362 3.516-1.844c4.296-1.95 8.299-4.284 11.875-7.524c2.494-4.218 8.02-5.31 9.92-10.066c1.191-4.275 5.044-7.521 5.162-12.08c-2.047-2.967-8.36-.345-9.512-4.604c-.429-4.475-5.205-2.515-7.304-4.62c-3.145-.364-1.215-5.562-3.805-3.163c-3.189-1.514-2.4.49-5.807.565c.423-1.533-2.26-2.97-2.822-1.567c-.332.132-5.714-.072-6.232 3.315c-2.026.095-5.05.519-7.03-.596c-1.765-2.488 1.857-6.81-3.25-7.023c-3.63.896-1.81-1.459-1.175-4.006c1.581-4.073-4.65-1.283-5.391.822c-3.906 2.19-6.357-3.989-4.195-6.904c.562-5.982 7.228-2.301 10.271-4.44c3.191-.054 4.574 3.76 4.772 5.905c5.048-.82-2.351-7.54 2.7-9.043c4.025-1.028 1.903-4.715 4.75-6.909c3.628.228.012-2.841 3.034-3.12c1.18.898 6.781-.195 4.414-2.565c-1.966 1.795-2.572-1.324-4.092-1.658c1.947.029 2.685.908 4.117-1.073c-.478 2.608 2.733 3.672 4.92 3.032c-2.745-3.606-6.662-5.798-10.62-8.25c-.854-3.62-3.79-4.402-7.509-5.315zm-.449 1.697c.66-.033 1.4.108 1.766.467c-3.121 1.6-1.631 1.762-1.184 4.465c1.415-.694.02 1.876.192.863c.956-1.434-2.277-.838-1.03 1.448c-1.427-1.707-5.123-1.532-6.861-3.225c.064-3.463 5.674-.266 6.588-2.582c-1.445-.836-.57-1.38.53-1.436zm-25.123 4.95c-.86 1.317-2.648 3.232-1.527 2.828c.102.773-1.51 5.365-3.496 6.916c-1.778 2.219-2.62 7.543-.805 8.767c.144 2.653.497 5.763 1.197 8.143c2.435 5.243 2.666-1.046 1.153-3.38c1.67 2.239 3.738 6.533 3.972 10.009c2.411 1.997 5.429 4.393 8.735 4.24c2.651 1.264 6.453 3.211 9.195 5.016c.922 2.71 4.07 4.387 6.652 5.183c1.262-3.099 3.561.635 3.201 2.971c-1.162 2.186-4.785 4.634-3.689 7.262c-2.318 2.708 1.859 4.866 2.81 7.736c1.507 2.141 2.462 5.026 5.618 5.58c4.259 3.018-.586 8.403-2.186 11.883c-.417 1.284-2.605 2.767-3.07 4.014c-1.186.089-2.38.15-3.588.15C24.025 97 3 75.975 3 50c0-17.132 9.149-32.105 22.828-40.318zm27.608 25.351c-.37-.017-.749.14-1.137.551c2.558-.155-1.17 3.407 1.797 3.332c1.184-3.645.758.847 3.01 1.393c1.435 1.42.347-2.147.25-1.84c-.937-.036-2.323-3.363-3.92-3.436zm-3.729 3.557a3.785 3.785 0 0 0-2.213.625c-2.774 1.585-.28 1.511.7 2.283c1.757-1.487 3.184-.033 5.298.719c.022 2.941 4.751-.966 4.742 1.28c-2.598.991.52 1.85 1.864 1.696c.56.975.898-.38 1.523-.287c2.075.234 3.934-1.127.541-2.23c-2.764.416-2.996-1.26-3.89-1.94c-2.38 1.674-5.396-2.05-8.565-2.146zm19.107 5.277c-.085.033-.139.177-.148.498c1.133 1.722 3.074 3.995 1.89 6.494c2.28-.251.554-4.905-.091-6.605c-.335 1.402-1.281-.53-1.65-.387z" fill="currentColor" class="fa-secondary"/></svg>
           <span class="link-text">Home</span>
         </a>
       </li>
@@ -105,8 +86,8 @@
 	
 .navbar {
   
-  background:$backgroundHallow;
-  box-shadow: 0 3px 8px 3px $textMain;
+  background:$backgroundMain;
+  box-shadow: 0 3px 8px 3px $backgroundSecond;
   backdrop-filter: blur(1.5px);
   -webkit-backdrop-filter: blur(1.5px);
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -131,9 +112,7 @@
 .nav-item {
   width: 100%;
 
-  &:last-child {
-  margin-top: auto;
-}
+  
 }
 
 .nav-link {
@@ -141,16 +120,16 @@
   align-items: center;
   height: 4rem;
   padding: 3%;
-  color: $textMain;
-  font-weight: 600;
+  color: $textColorMain;
+  font-weight: 400;
   text-decoration: none;
   filter: grayscale(70%) opacity(0.7);
   transition: 0.3s;
 
   &:hover {
   filter: grayscale(0%) opacity(1);
-  background: $backgroundMain;
-  color: $textSecond;
+  background: $backgroundThird;
+  color: $textColorMain;
 }
 
 .nav-extra {
@@ -186,11 +165,11 @@ svg {
 
 
 .fa-primary {
-  color: $textSecond;
+  color: $backgroundThird;
 }
 
 .fa-secondary {
-  color: $textMain;
+  color: $extra;
 }
 
 .fa-primary,
@@ -203,9 +182,9 @@ svg {
   text-transform: uppercase;
   margin-bottom: 1rem;
   text-align: center;
-  color: $textSecond;
+  color: $textColorMain;
   background: $backgroundSecond;
-  font-size: 1.5rem;
+  font-size: 1rem;
   letter-spacing: 0.3ch;
   width: 100%;
 
@@ -221,6 +200,7 @@ svg {
   font-style: italic;
   display: inline;
   position: absolute;
+  padding: 0 23% 0 0;
   left: -999px;
   transition: $transitSpeed;
 }
@@ -229,16 +209,13 @@ svg {
   transform: rotate(0deg);
 }
 
-
-
 /* Small screens */
 @media only screen and (max-width: 600px) {
   .navbar {
     bottom: 0;
     width: 100vw;
     height: 4rem;
-    background: $extra;
-
+    background: $backgroundThird;
   }
 
   .logo {
@@ -251,10 +228,12 @@ svg {
 
   .nav-link {
     justify-content: center;
-    color: $backgroundMain;
+    color: $textColorMain;
 
     &:hover{
-      background-color: $highlight;
+      background-color: $extra;
+      color: $backgroundMain;
+      transition:$transitSpeed;
     }
 
     svg {
@@ -272,20 +251,16 @@ svg {
 }
 
   .fa-primary {
-  color: $backgroundMain;
+  color: $extra;
 }
 
 .fa-secondary {
-  color: $backgroundMain;
+  color: $textColorMain;
 }
 
   main {
     margin: 0;
   }
-
-  .hide {
-  display: none;
-}
 }
 
 /* Large screens */
@@ -294,6 +269,12 @@ svg {
     top: 0;
     width: 5rem;
     height: 100vh;
+  }
+
+  .nav-item{
+    &:last-child {
+  margin-top: auto;
+}
   }
 
   .navbar:hover {

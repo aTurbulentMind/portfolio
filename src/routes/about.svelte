@@ -24,7 +24,7 @@
 
     <p>Or to unwind I may be caught spinning fire. As the world surrounding me slows at the crackling flint stored in the bic. The rush of endorfins pumping through the veins to the endpoints of each extremity. Within microseconds, the combustion seranades my soul with zen. The most prominent feeling of "this is peace" that I can access without a four hour trek.</p>
 
-    <iframe class="vid" width="560" height="315" style="margin-bottom: 120px;"   src="https://www.youtube.com/embed/zEs79S5yTr0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="vid" width="560" height="315" style="margin-bottom: 120px;"   src="https://www.youtube.com/embed/zEs79S5yTr0?controls=0/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     
 
