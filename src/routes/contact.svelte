@@ -4,15 +4,15 @@
 
 <div class="follow">
 
-    <a href="/">Twitter</a>
-    <a href="/">Instagram</a>
-    <a href="/">Facebook</a>
+    <a href="/index/">Twitter</a>
+    <a href="/index/">Instagram</a>
+    <a href="/index/">Facebook</a>
 
 </div>
 
  <container>
         
-        <form  style="margin-bottom: 15%;" action="https://formsubmit.co/joelkrivers@yahoo.com" method="POST">
+        <form action="https://formsubmit.co/joelkrivers@yahoo.com/" method="POST">
             <wrapper>
                 <box>
                     <input type="text" name="fname" id="fname" required>
@@ -282,7 +282,7 @@
         color: $backgroundMain;
         text-transform: uppercase;
         padding: 5px;
-        margin:-5% 8%;
+        margin: 4%;
 
         &:hover {
            transition: all 0.2s ease-in-out;
