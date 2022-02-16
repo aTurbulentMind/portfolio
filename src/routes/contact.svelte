@@ -181,7 +181,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
         background: $highlight;
-        width: 75%;
+        width: 90%;
         margin:8%;
         padding: 4%;
         border-radius:4px;
