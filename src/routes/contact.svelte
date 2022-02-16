@@ -279,7 +279,7 @@
         letter-spacing: 2px;
         border: 1px solid $extra;
         border-radius:4px;
-        color: $backgroundMain;
+        color: $textColorMain;
         text-transform: uppercase;
         padding: 5px;
         margin: 4%;
