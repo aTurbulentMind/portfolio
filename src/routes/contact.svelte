@@ -10,7 +10,7 @@
 
 </div>
 
- <container>
+ <container action="https://formsubmit.co/joelkrivers@gmail.com/" method="post">
         
         <form action="https://formsubmit.co/joelkrivers@gmail.com/" method="POST">
             <wrapper>
