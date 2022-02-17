@@ -10,9 +10,9 @@
 
 </div>
 
- <container action="https://formsubmit.co/joelkrivers@gmail.com/" method="POST">
+ <container>
         
-        <form action="https://formsubmit.co/joelkrivers@gmail.com/" method="POST">
+        <form action="https://formsubmit.co/joelkrivers@yahoo.com" method="Post">
             <wrapper>
                 <box>
                     <input type="text" name="fname" id="fname" required>
