@@ -1,18 +1,40 @@
 <body>
-    
-<h1>Contact:</h1>
 
-<div class="follow">
+    <div class="entryImg">
+		<img class="bigger" src="img/Ferry.jpg" alt="the sun setting behind a state ferry in travel" />
+  
+        <div class="centered"> <h1>Contact page</h1></div>
+    </div>
 
-    <a href="/index/">Twitter</a>
-    <a href="/index/">Instagram</a>
-    <a href="/index/">Facebook</a>
-
+    <div class="call">
+        <h2>Give us a call at:</h2>
+        <p>Toll free: <a href="tel: +8005528397/">+1(800)552-8397</a> <br>
+        Fax: <a href="+2532042349/">1-253-204-2349</a> </p>
 </div>
+    
+    
 
- <container action="https://formsubmit.co/joelkrivers@gmail.com/" method="post">
+    <div class="mail">
+        <h2>Our postal address is:</h2>
+        <p>The Computer Manager, Inc. <br>
+4110 Kitsap Way Suite 101 <br>
+P.O. Box 4091 <br>
+Bremerton, WA 98312</p>
+    </div>
+
+    <div class="social">
+        <h2>Social Media</h2> 
         
-        <form action="https://formsubmit.co/joelkrivers@gmail.com/" method="POST">
+        <p><a href="https://www.linkedin.com/company/debt-net/">  Follow us on Linkedin.</a> </p>
+
+        <p><a href="https://www.linkedin.com/company/debt-net/">  Follow us on Facebook.</a> </p>
+    </div>
+
+   
+    <container>
+        
+        <form action="https://formsubmit.co/joelkrivers@yahoo.com" method="POST">
+            <h2>contact</h2>
             <wrapper>
                 <box>
                     <input type="text" name="fname" id="fname" required>
@@ -23,7 +45,7 @@
             <wrapper>
                 <box>
                     <input type="text" name="email" id="email" required>
-                    <input type="hidden" name="_next" value="https://www.lanternlightdevelopment.com/">
+                    <input type="hidden" name="_next" value="https://tender-benz-1741cd.netlify.app/">
                     <label for="email">Email</label>
 
                 </box>
@@ -34,20 +56,55 @@
             <wrapper>
                 <box>
                     <input type="text" name="tel" id="tel" required>
-                    <label for="tel">Point of preffered communication</label>
+                    <label for="tel">Telephone</label>
                 </box>
             </wrapper>
 
             <wrapper>
                 <box>
                     <input type="text" name="comp" id="comp" required>
-                    <label for="comp">Company/Entity Name</label>
+                    <label for="comp">Company Name</label>
+                </box>
+            </wrapper>
+
+            <wrapper>
+                <box>
+                    <input type="text" name="sta" id="sta" required>
+                    <label for="tel">State</label>
                 </box>
             </wrapper>
 
             
-
-          
+            <!--
+            <div class="section1">
+            <wrapper>
+                <box>
+                    <div class="flex-row">
+                    <input type="checkbox" name="check1" id="chk" required>
+                    <label for="chk">option</label>
+                    </div>
+                </box>
+                <box>
+                    <div class="flex-row">
+                    <input type="checkbox" name="check1" id="chk" required>
+                    <label for="chk">option2</label>
+                    </div>
+                </box>
+                <box>
+                    <div class="flex-row">
+                    <input type="checkbox" name="check1" id="chk" required>
+                    <label for="chk">option3</label>
+                    </div>
+                </box>
+                <box>
+                    <div class="flex-row">
+                    <input type="checkbox" name="check1" id="chk" required>
+                    <label for="chk">option4</label>
+                    </div>
+                </box>
+            </wrapper>
+            </div>
+        -->
             <wrapper>
                 <box>
                     <textarea id="mes" required></textarea>
@@ -62,131 +119,113 @@
     </container>
 
 
+    
+
+    <h2>We have a support plan set up to know we will be here the moment you need it.</h2>
+        <p  id="bottom20" >
+            Debt$Net® technical support plans suit different purposes. Initial Purchase Support provides 90 days of technical phone support and comes as part of the purchase price of Debt$Net®. Other support plans, such as Hour Based Plans and the Unlimited Support plan provide technical support services for agencies after the Initial Purchase Support time expires. The paragraphs below explain each support plan.
+<br><br><br><br>
+<span> Initial Purchase Support:</span> The initial purchase of Debt$Net® includes telephone technical support. It provides five hours of time for the multi-user version, and three hours for the single-user version. This 90 day phase of technical support provides assistance to new customers for the installation and configuration of Debt$Net® software. Technicians log all time spent on the telephone with the Technical Support Department against the initial support hours, regardless of the nature of the problem. When 90 days has elapsed, or when the support time has been consumed, TCM offers continued support through one of the Debt$Net® support plans described below.
+<br><br><br><br>
+<span> Hour Based Plans: </span>The Hour Based Plans provide agencies with hour blocks of telephone technical support per quarter. The hour based blocks are available at a 2 hour level, 4 hour level and 8 hour level. This plan type benefits experienced agencies with consistent support requirements. The Technical Support Department tracks support time and deducts it from the agency's quarterly time allocation. Technicians provide support during normal TCM business hours. Time deducts from the quarterly allocation regardless of the nature of the problem. When needed, agencies purchase additional support time at the published hourly rate for their level. Agencies must pay for additional time in advance and all time expires at the end of the quarter.
+<br><br><br><br>
+<span>Unlimited Support Plan:</span>  The Unlimited Support Plan provides "as required" technical support during normal business hours. Technicians do not track support time and time allocations do not apply. The Technical Support Department provides services directly covered by the support plan without requiring additional time purchases. Under this plan, the agency pays a flat fee once per quarter. The plan covers only assistance with Debt$Net®. This plan benefits large agencies or agencies with high support requirements that do not want to face unplanned additional support expenses.
+        </p>
 </body>
 
-<style lang="scss"> 
-   @import 'components';
+<style lang="scss">
+    @import 'components';
 
-   *{
+    *{
         
         box-sizing: border-box;
     }
 
-   h2{
-      margin: 5%;
-   }
+    .call{
 
-   h3{
-      font-weight: 100;
-      
-      margin: 5%;
-   }
+        p{
+            padding-left: 25%;
+        }
+    }
 
-   p{
-      margin: 3%;
-   }
+    .social {
+
+        float: left;
+        margin: 5%;
 
 
-   .follow{ 
-
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         font-family: $secondaryFont;
-         
-
-        a{
-            position: relative;
-            padding: 10px 30px;
-            margin: 6% 2%;
-            color: $textColorMain;
-            text-decoration: none;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            font-size: 3vw;
-            overflow: hidden;
-            transition: 0.3s;
-            -webkit-box-reflect: below 1px linear-gradient(transparent,#0003);
+        h2{
+            margin-bottom: 5%;
+        }
+        
+        a{ 
+           
+            color: $backgroundMain;
+            
         }
 
-        a:nth-child(1) {
-            filter: hue-rotate(215deg);
-        }
+        p{
+            background: $extra;
+            border-radius: 5px;
+            width: fit-content;
+            text-align: center;
+            overflow-x: hidden;
+            padding: 2%;
+            box-shadow: 0 2px 5px 2px $textMain;
+            cursor: pointer;
 
-        a:nth-child(3) {
-            filter: hue-rotate(270deg);
+            &:hover{
+                transform: scale(1.1);
+                box-shadow: 0 3px 8px 3px $textMain;
+                border: 1px solid $textMain;
+            }
         }
+    }
 
-        a:hover {
-            background: #e42886;
-            color:rgb(201, 201, 201) ;
-            box-shadow: 0 0 50px #e42886;
-            transition-delay: 0.2s;
+    .socImg {
+    width: 60%;
+    height: 60%;
+    margin: 0 18% 10% 18%;
+    border: 1px solid $extra;
+    border-radius: 8px;
+    box-shadow: 0 3px 12px 3px $textMain;
+ }
+
+    span{
+        font-weight: 600;
+    }
+
+    .mail{
+        background: $extra;
+        color: $backgroundMain;
+
+        p{
+            padding-left: 25%;
         }
+    }
 
-        a:before {
-            content: '';
-            position: absolute;
-            top:0;
-            left: 0;
-            width: 10px;
-            height: 10px;
-            border-top: 2px solid rgb(17, 17, 1);
-            border-left: 2px solid rgb(17, 17, 1);
-            transition: 0.3s;
-            transition-delay: 0.2s;
-        }
+    //form
+    
 
-        a:hover:before {
-            width: 100%;
-            height: 100%;
-            border-top: 2px solid rgb(201, 201, 201) ;
-            border-left: 2px solid rgb(201, 201, 201) ;
-            transition-delay: 0;
-        }
-
-        a:after {
-            content: '';
-            position: absolute;
-            bottom:0;
-            right: 0;
-            width: 10px;
-            height: 10px;
-            border-bottom: 2px solid rgb(17, 17, 1);
-            border-right: 2px solid rgb(17, 17, 1);
-            transition: 0.3s;
-            transition-delay: 0;
-        }
-
-        a:hover:after {
-            width: 100%;
-            height: 100%;
-            border-bottom: 2px solid rgb(201, 201, 201) ;
-            border-right: 2px solid rgb(201, 201, 201) ;
-            transition-delay: 0.2s;
-        }
-}
-
-   container{
-        letter-spacing: 1.5px;
+    container{
+        
         
 
         h2{
-        color: $textColorMain;
+        color: $backgroundMain;
         font-size: 3vw;
         text-align: center;
-        grid-column: 1 ;
+        grid-column: 1 / span 2;
     }
 
     form{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        background: $highlight;
-        width: 90%;
+        background: $extra;
+        width: 65%;
         margin:8%;
         padding: 4%;
         border-radius:4px;
-        text-transform: capitalize;
     }
 
     wrapper{
@@ -209,7 +248,7 @@
         background: transparent;
         border: none;
         outline: none;
-        border-bottom: 1px solid $textColorMain;
+        border-bottom: 1px solid $textMain;
         transition:0.3s linear;
     }
 
@@ -218,21 +257,19 @@
     textarea:focus,
     textarea:valid{
         padding: 10px;
-        color: $textColorMain;
         background: $backgroundSecond;
         margin: 10px;
         border-radius:4px;
-        font-size: 2.5vw;
     }
 
     label{
         position: absolute;
         top: 0;
         left: 0;
-        color: $textColorMain;
-        font-size: 2.5vw;
+        color: $backgroundSecond;
+        font-size: 2vw;
         font-weight: bold;
-        padding: 10px;
+        padding: 20px;
         transition: 0.3s linear;
     }
 
@@ -270,56 +307,46 @@
             padding: 0 10px;
         }
     }
-   
+    }
 
 
     button{
     background: rgba(16, 15, 17, 0.616);
         outline: none;
         font-weight: 100;
-        letter-spacing: 4px;
+        letter-spacing: 2px;
         border: 1px solid $extra;
         border-radius:4px;
-        color: $textColorMain;
+        color: $backgroundMain;
         text-transform: uppercase;
-        padding: 5px;
-        margin: 4%;
-        font-family: $mainFont;
+        padding: 10px;
+        margin:15% 0 10% 0;
 
         &:hover {
            transition: all 0.2s ease-in-out;
-        background: $textColorMain;
+        background: $textMain;
         color: $backgroundMain;
         transform: scale(1.05);
         }
  }
 
+    
+
+  @media (max-width: 768px) {
+
+    .social{
+        float: none;
+    }
+
+      
+
+   .socImg {
+    width: 90%;
+    height: 90%;
+    margin: 10% 5%;
  }
- 
+  }
 
-  @media (min-width:750px) {
-
-          img {
-             width: 85%;
-             margin:4% 0 10% 10%;
-          }
-      }
-
-  @media (min-width:991px) {
-
-          container{
-              label{
-        font-size: 1.5vw;
-        
-    }
-
-    form{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        width: 85%;
-        
-    }
-          }
-      }
+  
 
 </style>
