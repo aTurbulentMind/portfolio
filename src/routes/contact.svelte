@@ -12,7 +12,7 @@
 
  <container>
         
-        <form action="https://formsubmit.co/joelkrivers@yahoo.com" method="Post">
+        <form name="contact" netlify>
             <wrapper>
                 <box>
                     <input type="text" name="fname" id="fname" required>
