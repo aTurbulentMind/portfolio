@@ -12,7 +12,7 @@
 
  <container>
         
-        <form action="https://formsubmit.co/joelkrivers@yahoo.com/" method="POST">
+        <form action="https://formsubmit.co/joelkrivers@gmail.com/" method="POST">
             <wrapper>
                 <box>
                     <input type="text" name="fname" id="fname" required>
@@ -23,7 +23,7 @@
             <wrapper>
                 <box>
                     <input type="text" name="email" id="email" required>
-                    <input type="hidden" name="_next" value="https://tender-benz-1741cd.netlify.app/">
+                    <input type="hidden" name="_next" value="https://www.lanternlightdevelopment.com/">
                     <label for="email">Email</label>
 
                 </box>
