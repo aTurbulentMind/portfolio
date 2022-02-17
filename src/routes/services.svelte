@@ -11,6 +11,9 @@
 
     <p>UX is derived from the entire experience of the time spent at your site. How the culture around you or your product feels, and how it aligns with the material in front of them. "UX is concerned with the entire process of acquiring and integrating a product, including aspects of branding, design, usability and function." &nbsp; &nbsp; &nbsp;  </p>
 
+    <h2>Website redesign</h2>
+    <p>It is easy to have built it and let it be. Before you know it, five years have passed. Now what was great seems stale and in need of a refresh. Let's talk about bringing your site into the future.</p>
+
     <h2>Graphic design</h2>
     <p>The process of graphic design is the interconnected bridge between the art and means of dispersal to communicate the ideas of your entity. Great design works with a variety of media tools in order to inspire a particular bracket. Video, audio, images and typography are the backbone of graphic design.  &nbsp; &nbsp; &nbsp; </p>
 
@@ -24,7 +27,7 @@
     
 
     <h2>NFT generation</h2>
-    <p style="margin-bottom: 30%;">Generate a library of NFT's to share at your choice. Take the step into the decentralized world of web3. Let's make something cool for you to have another outlet to build who your entity is. &nbsp; &nbsp; &nbsp; </p>
+    <p>Generate a library of NFT's to share at your choice. Take the step into the decentralized world of web3. Let's make something cool for you to have another outlet to build who your entity is. &nbsp; &nbsp; &nbsp; </p>
 
     
 </body>

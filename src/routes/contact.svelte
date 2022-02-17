@@ -92,6 +92,7 @@
          display: flex;
          justify-content: center;
          align-items: center;
+         font-family: $secondaryFont;
          
 
         a{
@@ -276,13 +277,14 @@
     background: rgba(16, 15, 17, 0.616);
         outline: none;
         font-weight: 100;
-        letter-spacing: 2px;
+        letter-spacing: 4px;
         border: 1px solid $extra;
         border-radius:4px;
         color: $textColorMain;
         text-transform: uppercase;
         padding: 5px;
         margin: 4%;
+        font-family: $mainFont;
 
         &:hover {
            transition: all 0.2s ease-in-out;
@@ -300,6 +302,23 @@
           img {
              width: 85%;
              margin:4% 0 10% 10%;
+          }
+      }
+
+  @media (min-width:991px) {
+
+          container{
+              label{
+        font-size: 1.5vw;
+        
+    }
+
+    form{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        width: 85%;
+        
+    }
           }
       }
 

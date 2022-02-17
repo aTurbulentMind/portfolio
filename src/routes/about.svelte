@@ -1,7 +1,7 @@
 <body>
     
     
-    <img src="img/myFace.jpg/" alt="its my face" style="width:80%; height:40%;">
+    <img class="face" src="img/myFace.jpg/" alt="its my face">
 
     <h1>Joel Rivers</h1>
     <ul>
@@ -39,6 +39,7 @@
     img {
         width: 80%;
        margin: 0 10%;
+       border-radius: 4px;
     }
 
     ul{
@@ -51,11 +52,13 @@
           max-width: 99%;
       }
 
-    @media (max-width: 768px) {
-        ul{
-            font-size: 3.5vw;
-        }
-    }
+   @media (min-width:700px) {
+
+          .face{
+             width: 35%;
+             margin:4% 35%;
+          }
+      }
 
 
 
