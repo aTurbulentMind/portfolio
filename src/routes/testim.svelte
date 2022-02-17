@@ -20,7 +20,7 @@
     </div>
     
     <h2 class="altFont">Orca Art Tattoo House</h2>
-    <p style="margin-bottom: 30%;">"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta alias quaerat doloremque! Qui debitis ad similique quibusdam recusandae consequuntur quaerat vitae illo!" &nbsp; &nbsp; &nbsp; </p>
+    <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta alias quaerat doloremque! Qui debitis ad similique quibusdam recusandae consequuntur quaerat vitae illo!" &nbsp; &nbsp; &nbsp; </p>
 
     
 </body>
