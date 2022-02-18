@@ -12,7 +12,7 @@
 
  <container>
         
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" netlify>
             <wrapper>
                 <box>
                     <input type="text" name="fname" id="fname" required>
