@@ -12,10 +12,10 @@
 
  <container>
         
-        <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
+        <form name="contact" method="POST" netlify>
             <wrapper>
                 <box>
-                    <input type="text" name="fname" id="fname" required>
+                    <input type="text" name="name" id="name" required>
                     <label for="fname">First and Last Name</label>
                 </box>
             </wrapper>
@@ -23,7 +23,7 @@
             <wrapper>
                 <box>
                     <input type="text" name="email" id="email" required>
-                    <input type="hidden" name="_next" value="https://www.lanternlightdevelopment.com/">
+                    
                     <label for="email">Email</label>
 
                 </box>
@@ -60,8 +60,6 @@
             <button type="submit">Submit</button>
         </form>
     </container>
-
-
 
 
 </body>
