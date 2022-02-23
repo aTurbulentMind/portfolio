@@ -15,24 +15,9 @@
 
 </div>
 
-<form name="test" method="post" netlify netlify-honeypot="bot-field">
-    <input type="hidden" name="form-name" value="test" />
-    <input type="text" name="bot-field" />
-    <p>
-        <label>Your Name: <input type="text" name="name" /></label>
-    </p>
-    <p>
-        <label>Your Email: <input type="email" name="email" /></label>
-    </p>
-    <p>
-        <label>Message: <textarea name="message" /></label>
-    </p>
-    <p>
-        <button type="submit">Send</button>
-    </p>
-</form>
+    <h1>My contact form is currently under development. Until it is available, please contact me by <a href = "mailto: joelkrivers@gmail.com">email</a> or one of the social media pages provided above.</h1>
 
- <container>
+<!--<container>
         
         <form name="contact" method="POST" netlify>
             <wrapper>
@@ -82,7 +67,7 @@
             <button type="submit">Submit</button>
         </form>
     </container>
-
+--> 
 
 </body>
 
