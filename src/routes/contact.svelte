@@ -15,7 +15,7 @@
 
 </div>
 
-    <h1>My contact form is currently under development. Until it is available, please contact me by <a href = "mailto: joelkrivers@gmail.com">email</a> or one of the social media pages provided above.</h1>
+    <h1>My contact form is currently under development. Until it is available, please contact me by <a href = "mailto: joelkrivers@gmail.com">email</a>(Joelkrivers@gmail.com) or one of the social media pages provided above.</h1>
 
 <!--<container>
         
