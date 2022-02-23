@@ -113,11 +113,11 @@
 }
 
 .art-banner-bg {
-    background-image: url(/img/swirlyPeri.png);
+    background-image: url(/img/biglogo.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: 100%;
+    background-size: 80%;
     opacity: 0.25;
     grid-column: 1 / -1;
     grid-row: 1 / -1;
