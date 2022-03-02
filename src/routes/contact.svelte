@@ -20,7 +20,7 @@
 
     <container>
         
-        <form action="https://formsubmit.co/joel@debtnet5.com" method="POST">
+        <form action="https://formsubmit.co/joelkrivers@gmail.com" method="POST">
             <h2>contact</h2>
             <wrapper>
                 <box>
