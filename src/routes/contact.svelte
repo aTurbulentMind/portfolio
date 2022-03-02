@@ -32,7 +32,7 @@
             <wrapper>
                 <box>
                     <input type="text" name="email" id="email" required>
-                    <input type="hidden" name="_next" value="https://debtnet5build.netlify.app/">
+                    <input type="hidden" name="_next" value="https://www.lanternlightdevelopment.com/contact">
                     <label for="email">Email</label>
 
                 </box>
