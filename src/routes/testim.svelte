@@ -6,7 +6,7 @@
     </div>
 
     <h2 class="altFont">Debt Net$</h2>
-    <p>The Coputer Manager is a company who makes software for debt collection agencies. Their site felt like 1995 so I invested the time to make something a bit more up to date and responsive. &nbsp; &nbsp; &nbsp;  </p>
+    <p>The Computer Manager is a company who makes software for debt collection agencies. Their site felt like 1995 so I invested the time to make something a bit more up to date and responsive. &nbsp; &nbsp; &nbsp;  </p>
 
     <div class="social">
        <a href="https://harboreddreambuild.netlify.app/">  <img src="img/harbBanner.png/" alt="screenshot of a website build for Harbored Dreams"></a> 

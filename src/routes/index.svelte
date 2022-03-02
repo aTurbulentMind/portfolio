@@ -5,12 +5,13 @@
   <div class="banner-text">Lantern Light Development</div>
   
   <div class="coaButt2">
-    
-        <a href="/"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink/" viewBox="0 0 24 24"><path d="M15.725 22v-7.745h2.6l.389-3.018h-2.99V9.31c0-.874.243-1.47 1.497-1.47h1.598v-2.7a21.391 21.391 0 0 0-2.33-.12c-2.304 0-3.881 1.407-3.881 3.99v2.227H10v3.018h2.607V22H3.104C2.494 22 2 21.506 2 20.896V3.104C2 2.494 2.494 2 3.104 2h17.792C21.506 2 22 2.494 22 3.104v17.792c0 .61-.494 1.104-1.104 1.104h-5.171z" fill="currentColor" fill-rule="evenodd"/></svg></a> 
+   <div class="follow">
 
-     <a href="/"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink/" viewBox="0 0 256 256"><path d="M128 80a48 48 0 1 0 48 48a48 48 0 0 0-48-48zm0 80a32 32 0 1 1 32-32a32.1 32.1 0 0 1-32 32zm44-132H84a56 56 0 0 0-56 56v88a56 56 0 0 0 56 56h88a56 56 0 0 0 56-56V84a56 56 0 0 0-56-56zm40 144a40 40 0 0 1-40 40H84a40 40 0 0 1-40-40V84a40 40 0 0 1 40-40h88a40 40 0 0 1 40 40zm-20-96a12 12 0 1 1-12-12a12 12 0 0 1 12 12z" fill="currentColor"/></svg></a>
+    <a href="https://twitter.com/LanternLightDev/">Twitter</a>
+    <a href="https://www.instagram.com/lanternlightdevelopment/">Instagram</a>
+    <a href="https://www.facebook.com/profile.php?id=100078803221612/">Facebook</a>
 
-     <a href="/"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink/" viewBox="0 0 24 24"><g fill="none"><path d="M23.643 4.937c-.835.37-1.732.62-2.675.733a4.67 4.67 0 0 0 2.048-2.578a9.3 9.3 0 0 1-2.958 1.13a4.66 4.66 0 0 0-7.938 4.25a13.229 13.229 0 0 1-9.602-4.868c-.4.69-.63 1.49-.63 2.342A4.66 4.66 0 0 0 3.96 9.824a4.647 4.647 0 0 1-2.11-.583v.06a4.66 4.66 0 0 0 3.737 4.568a4.692 4.692 0 0 1-2.104.08a4.661 4.661 0 0 0 4.352 3.234a9.348 9.348 0 0 1-5.786 1.995a9.5 9.5 0 0 1-1.112-.065a13.175 13.175 0 0 0 7.14 2.093c8.57 0 13.255-7.098 13.255-13.254c0-.2-.005-.402-.014-.602a9.47 9.47 0 0 0 2.323-2.41l.002-.003z" fill="currentColor"/></g></svg></a>
+</div>
         
 
     
@@ -134,7 +135,7 @@
     font-family: $secondaryFont;
     letter-spacing: 3px;
     grid-column: 2 / span 2;
-    grid-row: 3 /* no need to type one*/;
+    grid-row: 2 /* no need to type one*/;
     align-self: center;
     justify-self: center;
     z-index: 3;
@@ -146,23 +147,95 @@
     display: grid;
     align-self: center;
     justify-self: center;
-    grid-column: 4;
+    grid-column: 3;
     grid-row: 4;
-    background-color: $backgroundSecond;
-    width: 5vw;
-    height: fit-content;
-    border-radius: 50px;
+    margin:5% 0 5% 30%;
+    width: fit-content;
+    border-radius:10px;
     z-index: 3;
     padding: 4%;
+    background-color: rgba(10, 3, 14, 0.363);
+}
 
-    
 
-    a{
-        margin: 5% 20%;
-        max-width: 80%;
-        padding:7%;
-        color: $extra;
-    }
+   .follow{ 
+
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-family: $secondaryFont;
+         
+
+        a{
+            position: relative;
+            padding: 10px 30px;
+            margin: 6% 0;
+            color: $textColorMain;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 3vw;
+            overflow: hidden;
+            transition: 0.3s;
+            -webkit-box-reflect: below 1px linear-gradient(transparent,#0003);
+        }
+
+        a:nth-child(1) {
+            filter: hue-rotate(215deg);
+        }
+
+        a:nth-child(3) {
+            filter: hue-rotate(270deg);
+        }
+
+        a:hover {
+            background: #e42886;
+            color:rgb(201, 201, 201) ;
+            box-shadow: 0 0 50px #e42886;
+            transition-delay: 0.2s;
+        }
+
+        a:before {
+            content: '';
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 10px;
+            height: 10px;
+            border-top: 2px solid rgb(17, 17, 1);
+            border-left: 2px solid rgb(17, 17, 1);
+            transition: 0.3s;
+            transition-delay: 0.2s;
+        }
+
+        a:hover:before {
+            width: 100%;
+            height: 100%;
+            border-top: 2px solid rgb(201, 201, 201) ;
+            border-left: 2px solid rgb(201, 201, 201) ;
+            transition-delay: 0;
+        }
+
+        a:after {
+            content: '';
+            position: absolute;
+            bottom:0;
+            right: 0;
+            width: 10px;
+            height: 10px;
+            border-bottom: 2px solid rgb(17, 17, 1);
+            border-right: 2px solid rgb(17, 17, 1);
+            transition: 0.3s;
+            transition-delay: 0;
+        }
+
+        a:hover:after {
+            width: 100%;
+            height: 100%;
+            border-bottom: 2px solid rgb(201, 201, 201) ;
+            border-right: 2px solid rgb(201, 201, 201) ;
+            transition-delay: 0.2s;
+        }
 }
 
 //tech stack div
