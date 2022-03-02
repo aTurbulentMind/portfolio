@@ -9,13 +9,101 @@
 
 <div class="follow">
 
-    <a href="/index/">Twitter</a>
-    <a href="/index/">Instagram</a>
-    <a href="/index/">Facebook</a>
+    <a href="https://twitter.com/LanternLightDev/">Twitter</a>
+    <a href="https://www.instagram.com/lanternlightdevelopment/">Instagram</a>
+    <a href="https://www.facebook.com/profile.php?id=100078803221612/">Facebook</a>
 
 </div>
 
     <h1>My contact form is currently under development. Until it is available, please contact me by <a href = "mailto: joelkrivers@gmail.com">email</a>(Joelkrivers@gmail.com) or one of the social media pages provided above.</h1>
+
+
+    <container>
+        
+        <form action="https://formsubmit.co/joel@debtnet5.com" method="POST">
+            <h2>contact</h2>
+            <wrapper>
+                <box>
+                    <input type="text" name="fname" id="fname" required>
+                    <label for="fname">First and Last Name</label>
+                </box>
+            </wrapper>
+
+            <wrapper>
+                <box>
+                    <input type="text" name="email" id="email" required>
+                    <input type="hidden" name="_next" value="https://debtnet5build.netlify.app/">
+                    <label for="email">Email</label>
+
+                </box>
+            </wrapper>
+
+           
+
+            <wrapper>
+                <box>
+                    <input type="text" name="tel" id="tel" required>
+                    <label for="tel">Telephone</label>
+                </box>
+            </wrapper>
+
+            <wrapper>
+                <box>
+                    <input type="text" name="comp" id="comp" required>
+                    <label for="comp">Company Name</label>
+                </box>
+            </wrapper>
+
+            <wrapper>
+                <box>
+                    <input type="text" name="sta" id="sta" required>
+                    <label for="tel">State</label>
+                </box>
+            </wrapper>
+
+            
+            <!--
+            <div class="section1">
+            <wrapper>
+                <box>
+                    <div class="flex-row">
+                    <input type="checkbox" name="check1" id="chk" required>
+                    <label for="chk">option</label>
+                    </div>
+                </box>
+                <box>
+                    <div class="flex-row">
+                    <input type="checkbox" name="check1" id="chk" required>
+                    <label for="chk">option2</label>
+                    </div>
+                </box>
+                <box>
+                    <div class="flex-row">
+                    <input type="checkbox" name="check1" id="chk" required>
+                    <label for="chk">option3</label>
+                    </div>
+                </box>
+                <box>
+                    <div class="flex-row">
+                    <input type="checkbox" name="check1" id="chk" required>
+                    <label for="chk">option4</label>
+                    </div>
+                </box>
+            </wrapper>
+            </div>
+        -->
+            <wrapper>
+                <box>
+                    <textarea id="mes" required></textarea>
+                    <label for="mes">Words here and stuff...</label>
+                </box>
+            </wrapper>
+            <br><br><br><br>
+
+          <!-- <input type="submit" name="" value="sedn">--> 
+            <button type="submit">Submit</button>
+        </form>
+    </container>
 
 <!--<container>
         
