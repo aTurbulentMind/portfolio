@@ -18,7 +18,7 @@
     <h1>My contact form is currently under development. Until it is available, please contact me by <a href = "mailto: joelkrivers@gmail.com">email</a>(Joelkrivers@gmail.com) or one of the social media pages provided above.</h1>
 
 
-    <container>
+ <!--  <container>
         
         <form action="https://formsubmit.co/joelkrivers@gmail.com" method="POST">
             <h2>contact</h2>
@@ -62,7 +62,7 @@
             </wrapper>
 
             
-            <!--
+            
             <div class="section1">
             <wrapper>
                 <box>
@@ -91,7 +91,7 @@
                 </box>
             </wrapper>
             </div>
-        -->
+        
             <wrapper>
                 <box>
                     <textarea id="mes" required></textarea>
@@ -100,14 +100,14 @@
             </wrapper>
             <br><br><br><br>
 
-          <!-- <input type="submit" name="" value="sedn">--> 
+           <input type="submit" name="" value="sedn">
             <button type="submit">Submit</button>
         </form>
     </container>
-
-<!--<container>
+--> 
+<container>
         
-        <form name="contact" method="POST" netlify>
+        <form action="https://formsubmit.co/joelkrivers@gmail.com" method="POST">
             <wrapper>
                 <box>
                     <input type="text" name="name" id="name" required>
@@ -118,7 +118,7 @@
             <wrapper>
                 <box>
                     <input type="text" name="email" id="email" required>
-                    
+                    <input type="hidden" name="_next" value="https://www.lanternlightdevelopment.com/contact">
                     <label for="email">Email</label>
 
                 </box>
@@ -155,7 +155,7 @@
             <button type="submit">Submit</button>
         </form>
     </container>
---> 
+
 
 </body>
 
