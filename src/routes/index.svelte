@@ -28,14 +28,16 @@
    
      <div class="social">
         <a href="/testim/"> <h2>Some completed work:</h2>
+     
         <img src="img/debtBanner.png/" alt="screenshot of a website build for Debt Net"></a>
+        </div>
         <p>I find the most energy when helping somebody succeed. Everyone deserves their little bits of victory. The excitement of the new opportunities ignights a bonfire of inspiration in the owner. New levels of expansion and growth shown through analytics allow cognizant use of data to further improve the performance of the product. We can work for your content to bring that change to your life. <br><br><br>
 
         <a href="/testim/">Check out some completed work.</a></p>
-    </div>
+    
 
     <h2>Debt$Net</h2>
-    <p>The Coputer Manager is a company who makes software for debt collection agencies. Their site felt like 1995 so I invested the time to make something a bit more up to date and responsive. &nbsp; &nbsp; &nbsp;  </p>
+    <p>The Computer Manager is a company who makes software for debt collection agencies. Their site felt like 1995 so I invested the time to make something a bit more up to date and responsive. &nbsp; &nbsp; &nbsp;  </p>
     
     <h2>Harbored Dreams</h2>
     <p>Harbored Dreams is a great heavy metal band out of western Washington. They are new and have not released their first album yet. I talked to one of the members and he gave me the ok to build them something. &nbsp; &nbsp; &nbsp; </p>
@@ -92,8 +94,9 @@
     
 
     .social{
+        font-size: 1.5vw;
     img{
-        margin: -8% 10%;
+        margin: -8% 10% 0 10%;
     }
     }
 //entry banner
