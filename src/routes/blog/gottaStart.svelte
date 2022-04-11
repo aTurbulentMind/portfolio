@@ -60,12 +60,12 @@ So, how do you change that? Make interactions with those around you. That's at l
     @import '../src/routes/_components.scss';
 
     img{
-        max-height: 100vh;
+        max-width: 100vw;
         margin: 0 15%;
     }
 
     .port {
-        max-height: 100vh;
+        max-width: 100vw;
         margin: 0 40%;
     }
 
@@ -84,4 +84,18 @@ So, how do you change that? Make interactions with those around you. That's at l
             text-transform: italic;
         }
     }
+
+      @media (max-width: 768px) {
+      p{
+          margin: 9% 7%;
+      }
+      img{
+        max-width: 80vw;
+        margin: 5%;
+        }
+      .port {
+        max-width: 80vw;
+        margin: 4% 10%;
+        }
+      }
 </style>
