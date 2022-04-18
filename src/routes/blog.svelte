@@ -4,14 +4,25 @@
 <h1>The Empty Account Articles</h1>
 
     <articles>
+        
+        <a href="/blog/whoru/">
+        <article>
+            <h2>Who r U? 4/18/22</h2>
+            
+            <img src="/img/mixed2.png" alt="mixed face happy and sad">
+            
+        </article>   
+        </a>
+
         <a href="/blog/gottaStart/">
         <article>
-            <h2>Gotta start.</h2>
+            <h2>Gotta start. 4/11/22</h2>
             
             <img src="/img/carfive.jpg" alt="damage to my car from an accident">
             
         </article>   
         </a>
+
     </articles>
 
 </body>
@@ -35,8 +46,9 @@
         }
 
         img{
-            max-height: 100vh;
-            margin: 1%;
+            max-height: 100%;
+            max-width: 100%;
+            margin-bottom: -3%;
         }
     }
 
