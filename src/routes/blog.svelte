@@ -5,6 +5,15 @@
 
     <articles>
         
+        <a href="/blog/yourawizard/">
+        <article>
+            <h2>You're a wizard!? 4/25/22</h2>
+            
+            <img src="/img/wiz.jpg" alt="sitting siamese cat">
+            
+        </article>   
+        </a>
+
         <a href="/blog/whoru/">
         <article>
             <h2>Who r U? 4/18/22</h2>
