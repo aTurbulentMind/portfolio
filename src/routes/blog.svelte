@@ -5,6 +5,16 @@
 
     <articles>
         
+        
+        <a href="/blog/inspirationthroughinspiring/">
+        <article>
+            <h2>Inspiration Through inspiring 5/2/22</h2>
+            
+            <img src="/blogPic/inspirationThroughInspiring/insp.jpg" alt="sitting siamese cat">
+            
+        </article>   
+        </a>
+
         <a href="/blog/yourawizard/">
         <article>
             <h2>You're a wizard!? 4/25/22</h2>
