@@ -7,7 +7,7 @@
         
         <a href="/blog/sizeMatters/">
         <article>
-            <h2>Inspiration Through inspiring 5/2/22</h2>
+            <h2>Size Matters 5/9/22</h2>
             
             <img src="/blogPic/sizeMatters/onethree.png" alt="completed deploy">
             
