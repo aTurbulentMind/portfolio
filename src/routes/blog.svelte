@@ -4,10 +4,19 @@
 <h1>The Empty Account Articles</h1>
 
     <articles>
-        
+        <a href="/blog/dustbite/">
+        <article>
+            <h2>Another one bites the dust 5/16/22</h2>
+            
+            <img src="/blogPic/dustbite/six.jpg" alt="rugrat meme about socialist idea" />
+            
+        </article>   
+        </a>
+
+
         <a href="/blog/sizeMatters/">
         <article>
-            <h2>Size Matters 5/9/22</h2>
+            <h2>Size matters... 5/9/22</h2>
             
             <img src="/blogPic/sizeMatters/onethree.png" alt="completed deploy">
             
