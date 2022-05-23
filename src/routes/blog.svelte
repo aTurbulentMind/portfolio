@@ -4,6 +4,15 @@
 <h1>The Empty Account Articles</h1>
 
     <articles>
+        <a href="/blog/mrmasonry/">
+        <article>
+            <h2>Masonry? 5/23/22</h2>
+            
+            <img src="/blogPic/mrMasonry/five.jpg" alt="snow covered mountain range" />
+            
+        </article>   
+        </a>
+        
         <a href="/blog/dustbite/">
         <article>
             <h2>Another one bites the dust 5/16/22</h2>
