@@ -3,8 +3,9 @@
     <div class="art-banner" id="art-banner">
   <div class="art-banner-bg"></div>
   <div class="banner-text">Lantern Light Development</div>
+  <div class="banner-phrase">"Awake into the lanterns light developing your dreams."</div>
   
-  <div class="coaButt2">
+   <div class="coaButt2">
    <div class="follow">
 
     <a href="https://twitter.com/LanternLightDev/">Twitter</a>
@@ -139,6 +140,18 @@
     letter-spacing: 3px;
     grid-column: 2 / span 2;
     grid-row: 2 /* no need to type one*/;
+    align-self: center;
+    justify-self: center;
+    z-index: 3;
+}
+
+.banner-phrase {
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: $mainFont;
+    letter-spacing: 3px;
+    grid-column: 2 / span 2;
+    grid-row: 3 /* no need to type one*/;
     align-self: center;
     justify-self: center;
     z-index: 3;
