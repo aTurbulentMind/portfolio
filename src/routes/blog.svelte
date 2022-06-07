@@ -1,109 +1,101 @@
-
 <body>
-    
-<h1>The Empty Account Articles</h1>
+	<h1>The Empty Account Articles</h1>
 
-    <articles>
-        <a href="/blog/urSandwich/">
-        <article>
-            <h2>You're a sandwich! 5/31/22</h2>
-            
-            <img src="/blogPic/urASandwich/one.jpg" alt="cat sitting funny" />
-            
-        </article>   
-        </a>
-        
-        <a href="/blog/mrmasonry/">
-        <article>
-            <h2>Masonry? 5/23/22</h2>
-            
-            <img src="/blogPic/mrMasonry/five.jpg" alt="snow covered mountain range" />
-            
-        </article>   
-        </a>
-        
-        <a href="/blog/dustbite/">
-        <article>
-            <h2>Another one bites the dust 5/16/22</h2>
-            
-            <img src="/blogPic/dustbite/six.jpg" alt="rugrat meme about socialist idea" />
-            
-        </article>   
-        </a>
+	<articles>
+		<a href="/blog/lostLostNotFound/">
+			<article>
+				<h2>Dont read this 06/07/22</h2>
 
+				<img src="/blogPic/lostnotFound/one.png" alt="bread sandwich" />
+			</article>
+		</a>
 
-        <a href="/blog/sizeMatters/">
-        <article>
-            <h2>Size matters... 5/9/22</h2>
-            
-            <img src="/blogPic/sizeMatters/onethree.png" alt="completed deploy">
-            
-        </article>   
-        </a>
-        
-        <a href="/blog/inspirationthroughinspiring/">
-        <article>
-            <h2>Inspiration Through inspiring 5/2/22</h2>
-            
-            <img src="/blogPic/inspirationThroughInspiring/insp.jpg" alt="sitting siamese cat">
-            
-        </article>   
-        </a>
+		<a href="/blog/urSandwich/">
+			<article>
+				<h2>You're a sandwich! 5/31/22</h2>
 
-        <a href="/blog/yourawizard/">
-        <article>
-            <h2>You're a wizard!? 4/25/22</h2>
-            
-            <img src="/img/wiz.jpg" alt="sitting siamese cat">
-            
-        </article>   
-        </a>
+				<img src="/blogPic/urASandwich/one.jpg" alt="cat sitting funny" />
+			</article>
+		</a>
 
-        <a href="/blog/whoru/">
-        <article>
-            <h2>Who r U? 4/18/22</h2>
-            
-            <img src="/img/mixed2.png" alt="mixed face happy and sad">
-            
-        </article>   
-        </a>
+		<a href="/blog/mrmasonry/">
+			<article>
+				<h2>Masonry? 5/23/22</h2>
 
-        <a href="/blog/gottaStart/">
-        <article>
-            <h2>Gotta start. 4/11/22</h2>
-            
-            <img src="/img/carfive.jpg" alt="damage to my car from an accident">
-            
-        </article>   
-        </a>
+				<img src="/blogPic/mrMasonry/five.jpg" alt="snow covered mountain range" />
+			</article>
+		</a>
 
-    </articles>
+		<a href="/blog/dustbite/">
+			<article>
+				<h2>Another one bites the dust 5/16/22</h2>
 
+				<img src="/blogPic/dustbite/six.jpg" alt="rugrat meme about socialist idea" />
+			</article>
+		</a>
+
+		<a href="/blog/sizeMatters/">
+			<article>
+				<h2>Size matters... 5/9/22</h2>
+
+				<img src="/blogPic/sizeMatters/onethree.png" alt="completed deploy" />
+			</article>
+		</a>
+
+		<a href="/blog/inspirationthroughinspiring/">
+			<article>
+				<h2>Inspiration Through inspiring 5/2/22</h2>
+
+				<img src="/blogPic/inspirationThroughInspiring/insp.jpg" alt="sitting siamese cat" />
+			</article>
+		</a>
+
+		<a href="/blog/yourawizard/">
+			<article>
+				<h2>You're a wizard!? 4/25/22</h2>
+
+				<img src="/img/wiz.jpg" alt="sitting siamese cat" />
+			</article>
+		</a>
+
+		<a href="/blog/whoru/">
+			<article>
+				<h2>Who r U? 4/18/22</h2>
+
+				<img src="/img/mixed2.png" alt="mixed face happy and sad" />
+			</article>
+		</a>
+
+		<a href="/blog/gottaStart/">
+			<article>
+				<h2>Gotta start. 4/11/22</h2>
+
+				<img src="/img/carfive.jpg" alt="damage to my car from an accident" />
+			</article>
+		</a>
+	</articles>
 </body>
 
-<style lang="scss"> 
+<style lang="scss">
+	@import 'components';
 
-    @import 'components';
+	articles {
+		overflow: hidden;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		contain: content;
+		gap: 3%;
+		margin: 8%;
 
-    articles{
-        overflow: hidden;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        contain: content;
-        gap: 3%;
-        margin:8%;
+		article {
+			@include glassBack();
+			border: solid 1px purple;
+		}
 
-        article{
-            @include glassBack();
-            border:solid 1px purple;
-            
-        }
-
-        img{
-            max-height: 100%;
-            max-width: 100%;
-            margin-bottom: -3%;
-        }
-    }
-
+		img {
+			max-height: 100%;
+			max-width: 100%;
+			margin-bottom: -3%;
+		}
+	}
 </style>
