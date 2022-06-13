@@ -2,6 +2,14 @@
 	<h1>The Empty Account Articles</h1>
 
 	<articles>
+		<a href="/blog/extremophile/">
+			<article>
+				<h2>Extremophile 06/13/22</h2>
+
+				<img src="/blogPic/wayExtreme/one.png" alt="digital drawing of a knife" />
+			</article>
+		</a>
+
 		<a href="/blog/lostLostNotFound/">
 			<article>
 				<h2>Dont read this 06/07/22</h2>
