@@ -1,7 +1,7 @@
 <body>
 	<h1>Look Away!</h1>
 
-	<img class="cent" src="/blogPic/lookingAway/three.png" alt="screenshot of an error" />
+	<img src="/blogPic/wayExtreme/two.png" alt="digital drawing of a knife" />
 
 	<p>
 		A bunch of random words of excitement could grab your attention as fast as a car wreck. But are
@@ -20,6 +20,7 @@
 		made six images to be converted into SVG. I have done it before, but I need a refresher. I think
 		that there is a way to use Figma to transform and image into and SVG.
 	</p>
+	<img class="cent" src="/blogPic/lookingAway/three.png" alt="screenshot of an error" />
 	<p>
 		This is such a great example of why I wanted to start blogging. Because I want to document the
 		things that I learn. I want account to look back and see how far I have come. That is even just
@@ -45,7 +46,7 @@
 		questions. And there is an option to see the code for what you create so you can hardcode it
 		into your own CSS. Fire.
 	</p>
-	<img class="cent" src="/blogPic/lookingAway/two.png" alt="screenshot of an error" />
+	<img src="/blogPic/lookingAway/two.png" alt="screenshot of an error" />
 	<p>
 		In Figma we have a few more steps. You have to add your SVG by dragging the file into the Figma
 		workspace. Here you can color or add effects like a drop shadow. Then export as an SVG.
@@ -65,7 +66,7 @@
 		working.
 	</p>
 
-	<img class="cent" src="/blogPic/lookingAway/one.png" alt="little plant growing" />
+	<img class="cent" src="/blogPic/lookingAway/one.jpg" alt="little plant growing" />
 </body>
 
 <style lang="scss">
