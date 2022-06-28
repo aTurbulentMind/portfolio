@@ -2,6 +2,17 @@
 	<h1>The Empty Account Articles</h1>
 
 	<articles>
+		<a href="/blog/moreAndMore/">
+			<article>
+				<h2>MoreAndMoreAndMoreAndMore 06/27/22</h2>
+
+				<img
+					src="/blogPic/moreandmoreandmore/one.png"
+					alt="digital logo idea. lantern inside a screen"
+				/>
+			</article>
+		</a>
+
 		<a href="/blog/lookAway/">
 			<article>
 				<h2>Look Away! 06/21/22</h2>
