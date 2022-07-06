@@ -2,6 +2,14 @@
 	<h1>The Empty Account Articles</h1>
 
 	<articles>
+		<a href="/blog/getLost/">
+			<article>
+				<h2>MoreAndMoreAndMoreAndMore 07/05/22</h2>
+
+				<img src="/blogPic/goGetLost/one.png" alt="burnt out or jaded?" />
+			</article>
+		</a>
+
 		<a href="/blog/moreAndMore/">
 			<article>
 				<h2>MoreAndMoreAndMoreAndMore 06/27/22</h2>
