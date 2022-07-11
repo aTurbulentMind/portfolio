@@ -2,9 +2,17 @@
 	<h1>The Empty Account Articles</h1>
 
 	<articles>
+		<a href="/blog/itsNotSprite/">
+			<article>
+				<h2>Sprite? 07/11/22</h2>
+
+				<img src="/blogPic/notSprite/one.jpg" alt="feet up camping next to a waterfall" />
+			</article>
+		</a>
+
 		<a href="/blog/getLost/">
 			<article>
-				<h2>MoreAndMoreAndMoreAndMore 07/05/22</h2>
+				<h2>Get Lost 07/05/22</h2>
 
 				<img src="/blogPic/goGetLost/one.png" alt="burnt out or jaded?" />
 			</article>
@@ -12,7 +20,7 @@
 
 		<a href="/blog/moreAndMore/">
 			<article>
-				<h2>MoreAndMoreAndMoreAndMore 06/27/22</h2>
+				<h2>MoreAndMore... 06/27/22</h2>
 
 				<img
 					src="/blogPic/moreandmoreandmore/one.png"
