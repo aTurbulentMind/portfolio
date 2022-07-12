@@ -2,13 +2,42 @@
 	<div class="art-banner" id="art-banner">
 		<div class="art-banner-bg" />
 		<div class="banner-text">Lantern Light Development</div>
+		<div class="banner-face"><img src="img/porffy.png/" alt="my face" /></div>
 		<div class="banner-phrase">"Awake into the lanterns light developing your dreams."</div>
 
 		<div class="coaButt2">
 			<div class="follow">
-				<a href="https://twitter.com/LanternLightDev/">Twitter</a>
-				<a href="https://www.instagram.com/lanternlightdevelopment/">Instagram</a>
-				<a href="https://www.facebook.com/profile.php?id=100078803221612/">Facebook</a>
+				<a href="https://twitter.com/LanternLightDev/"
+					><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+						><path
+							fill="currentColor"
+							d="M23.643 4.937c-.835.37-1.732.62-2.675.733a4.67 4.67 0 0 0 2.048-2.578a9.3 9.3 0 0 1-2.958 1.13a4.66 4.66 0 0 0-7.938 4.25a13.229 13.229 0 0 1-9.602-4.868c-.4.69-.63 1.49-.63 2.342A4.66 4.66 0 0 0 3.96 9.824a4.647 4.647 0 0 1-2.11-.583v.06a4.66 4.66 0 0 0 3.737 4.568a4.692 4.692 0 0 1-2.104.08a4.661 4.661 0 0 0 4.352 3.234a9.348 9.348 0 0 1-5.786 1.995a9.5 9.5 0 0 1-1.112-.065a13.175 13.175 0 0 0 7.14 2.093c8.57 0 13.255-7.098 13.255-13.254c0-.2-.005-.402-.014-.602a9.47 9.47 0 0 0 2.323-2.41l.002-.003Z"
+						/></svg
+					></a
+				>
+				<a href="https://www.instagram.com/lanternlightdevelopment/"
+					><svg
+						xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink"
+						viewBox="0 0 256 256"
+						><path
+							d="M128 80a48 48 0 1 0 48 48a48 48 0 0 0-48-48zm0 80a32 32 0 1 1 32-32a32.1 32.1 0 0 1-32 32zm44-132H84a56 56 0 0 0-56 56v88a56 56 0 0 0 56 56h88a56 56 0 0 0 56-56V84a56 56 0 0 0-56-56zm40 144a40 40 0 0 1-40 40H84a40 40 0 0 1-40-40V84a40 40 0 0 1 40-40h88a40 40 0 0 1 40 40zm-20-96a12 12 0 1 1-12-12a12 12 0 0 1 12 12z"
+							fill="currentColor"
+						/></svg
+					></a
+				>
+				<a href="https://www.facebook.com/profile.php?id=100078803221612/"
+					><svg
+						xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink"
+						viewBox="0 0 24 24"
+						><path
+							d="M15.725 22v-7.745h2.6l.389-3.018h-2.99V9.31c0-.874.243-1.47 1.497-1.47h1.598v-2.7a21.391 21.391 0 0 0-2.33-.12c-2.304 0-3.881 1.407-3.881 3.99v2.227H10v3.018h2.607V22H3.104C2.494 22 2 21.506 2 20.896V3.104C2 2.494 2.494 2 3.104 2h17.792C21.506 2 22 2.494 22 3.104v17.792c0 .61-.494 1.104-1.104 1.104h-5.171z"
+							fill="currentColor"
+							fill-rule="evenodd"
+						/></svg
+					></a
+				>
 			</div>
 		</div>
 	</div>
@@ -16,44 +45,98 @@
 	<h1>I'm here to help</h1>
 	<p>
 		Today, the world is intwined and threaded with the web. I am here to help those who need
-		projection into the borderless market of today. Buisnesses can grow without bounds when they
+		projection into the borderless market of today. Businesses can grow without bounds when they
 		contribute to the world.
 	</p>
 
-	<div class="social">
-		<a href="/testim/">
-			<h2>Some completed work:</h2>
-
-			<img src="img/debtBanner.png/" alt="screenshot of a website build for Debt Net" /></a
-		>
-	</div>
 	<p>
 		I find the most energy when helping somebody succeed. Everyone deserves their little bits of
 		victory. The excitement of the new opportunities ignights a bonfire of inspiration in the owner.
 		New levels of expansion and growth shown through analytics allow cognizant use of data to
 		further improve the performance of the product. We can work for your content to bring that
 		change to your life. <br /><br /><br />
-
-		<a href="/testim/">Check out some completed work.</a>
 	</p>
 
-	<h2>Debt$Net</h2>
+	<div class="social">
+		<a href="/testim/">
+			<h2>Check out some completed work:</h2>
+
+			<img src="img/debtBanner.png/" alt="screenshot of a website build for Debt Net" /></a
+		>
+	</div>
+
+	<h2 class="social-words">Debt$Net</h2>
 	<p>
 		The Computer Manager is a company who makes software for debt collection agencies. Their site
 		felt like 1995 so I invested the time to make something a bit more up to date and responsive.
-		&nbsp; &nbsp; &nbsp;
 	</p>
 
-	<h2>Harbored Dreams</h2>
+	<br />
+	<div class="social">
+		<a href="/testim/">
+			<img src="img/harbBanner.png/" alt="screenshot of a website build for Harbored Dreams" /></a
+		>
+	</div>
+
+	<h2 class="social-words">Harbored Dreams</h2>
 	<p>
 		Harbored Dreams is a great heavy metal band out of western Washington. They are new and have not
 		released their first album yet. I talked to one of the members and he gave me the ok to build
 		them something. &nbsp; &nbsp; &nbsp;
 	</p>
 
+	<h2><a href="/contact/"> Contact me</a></h2>
+
+	<container>
+		<form action="https://formsubmit.co/joelkrivers@gmail.com" method="POST">
+			<wrapper>
+				<box>
+					<input type="text" name="name" id="name" required />
+					<label for="fname">First and Last Name</label>
+				</box>
+			</wrapper>
+
+			<wrapper>
+				<box>
+					<input type="text" name="email" id="email" required />
+					<input
+						type="hidden"
+						name="_next"
+						value="https://www.lanternlightdevelopment.com/contact"
+					/>
+					<label for="email">Email</label>
+				</box>
+			</wrapper>
+
+			<wrapper>
+				<box>
+					<input type="text" name="tel" id="tel" required />
+					<label for="tel">Preffered communication</label>
+				</box>
+			</wrapper>
+
+			<wrapper>
+				<box>
+					<input type="text" name="comp" id="comp" required />
+					<label for="comp">Company/Entity Name</label>
+				</box>
+			</wrapper>
+
+			<wrapper>
+				<box>
+					<textarea id="mes" required />
+					<label for="mes">Words here and stuff...</label>
+				</box>
+			</wrapper>
+			<br /><br /><br /><br />
+
+			<button type="submit">Submit</button>
+		</form>
+	</container>
+
 	<h2>Stack:</h2>
 
-	<div class="tekStack">
+	<div class="tekStack social-words">
 		<a href="/">
 			<svg
 				class="light"
@@ -192,12 +275,11 @@
 	}
 
 	.art-banner-bg {
-		background-image: url(/img/biglogo.png);
+		background-image: url(/img/LLDProfPic.png);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		background-size: 80%;
-		opacity: 0.25;
+		background-size: 100%;
 		grid-column: 1 / -1;
 		grid-row: 1 / -1;
 
@@ -219,6 +301,22 @@
 		z-index: 3;
 	}
 
+	.banner-face {
+		grid-row: 2;
+		grid-column: 4;
+		border: 1px dashed $highlight;
+		border-radius: 50%;
+		width: 100%;
+		height: 85%;
+
+		img {
+			width: 100%;
+			height: 100%;
+			opacity: 1;
+			border-radius: 50%;
+		}
+	}
+
 	.banner-phrase {
 		font-size: 3vw;
 		font-weight: bold;
@@ -235,14 +333,19 @@
 		display: grid;
 		align-self: center;
 		justify-self: center;
-		grid-column: 3;
+		grid-column: 4;
 		grid-row: 4;
-		margin: 5% 0 5% 30%;
+		margin: 10%;
 		width: fit-content;
 		border-radius: 10px;
 		z-index: 3;
-		padding: 4%;
-		background-color: rgba(10, 3, 14, 0.363);
+		padding: 2%;
+		background-color: rgba(10, 3, 14, 0.166);
+
+		svg {
+			width: 20px;
+			height: 20px;
+		}
 	}
 
 	.follow {
@@ -338,6 +441,131 @@
 		}
 	}
 
+	container {
+		letter-spacing: 1.5px;
+
+		h2 {
+			color: $textColorMain;
+			font-size: 3vw;
+			text-align: center;
+			grid-column: 1;
+		}
+
+		form {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+			background: $highlight;
+			width: 90%;
+			margin: 2%;
+			padding: 4%;
+			border-radius: 4px;
+			text-transform: capitalize;
+		}
+
+		wrapper {
+			width: 100%;
+			display: grid;
+			grid-gap: 30px;
+			gap: 30px;
+		}
+
+		box {
+			width: 100%;
+			position: relative;
+			padding: 20px;
+		}
+
+		input,
+		textarea {
+			width: 85%;
+			font-size: 2vw;
+			background: transparent;
+			border: none;
+			outline: none;
+			border-bottom: 1px solid $textColorMain;
+			transition: 0.3s linear;
+		}
+
+		input:focus,
+		input:valid,
+		textarea:focus,
+		textarea:valid {
+			padding: 10px;
+			color: $textColorMain;
+			background: $backgroundSecond;
+			margin: 10px;
+			border-radius: 4px;
+			font-size: 2.5vw;
+		}
+
+		label {
+			position: absolute;
+			top: 0;
+			left: 0;
+			color: $textColorMain;
+			font-size: 2.5vw;
+			font-weight: bold;
+			padding: 10px;
+			transition: 0.3s linear;
+		}
+
+		input:focus ~ label,
+		input:valid ~ label,
+		textarea:focus ~ label,
+		textarea:valid ~ label {
+			padding: 0;
+		}
+
+		.section1 {
+			input {
+				accent-color: hotpink;
+				block-size: 45px;
+				inline-size: 18px;
+			}
+
+			input:focus,
+			input:valid,
+			textarea:focus,
+			textarea:valid {
+				padding: 0.5px;
+				margin: 0.5px;
+			}
+		}
+
+		.flex-row {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+
+			label {
+				padding: 0 10px;
+			}
+		}
+
+		button {
+			background: rgba(16, 15, 17, 0.616);
+			outline: none;
+			font-weight: 100;
+			letter-spacing: 4px;
+			border: 1px solid $extra;
+			border-radius: 4px;
+			color: $textColorMain;
+			text-transform: uppercase;
+			padding: 5px;
+			margin: -8% 4% 4% 4%;
+			font-family: $mainFont;
+
+			&:hover {
+				transition: all 0.2s ease-in-out;
+				background: $textColorMain;
+				color: $backgroundMain;
+				transform: scale(1.05);
+			}
+		}
+	}
+
 	@media (max-width: 768px) {
 		.art-banner {
 			grid-template-columns: 20px 1fr 1fr 1fr 60px;
@@ -361,6 +589,56 @@
 		}
 	}
 
-	@media (max-width: 991px) {
+	@media only screen and (min-width: 600px) {
+		.banner-face {
+			grid-row: 2;
+			grid-column: 4;
+			width: 50%;
+			height: 80%;
+
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+
+		.coaButt2 {
+			svg {
+				width: 25px;
+				height: 25px;
+			}
+		}
+
+		.social {
+			width: 50%;
+			height: 50%;
+			margin: 5% 0 0 10%;
+		}
+
+		.social-words {
+			position: absolute;
+			width: 40%;
+			height: 40%;
+			right: 0;
+			margin: -10% 5% 0 0;
+		}
+
+		.tekStack {
+			svg {
+				max-width: 8%;
+				position: relative;
+				margin-bottom: 15%;
+			}
+		}
+
+		container {
+			label {
+				font-size: 2vw;
+			}
+
+			button {
+				margin-top: 15%;
+			}
+		}
 	}
 </style>
