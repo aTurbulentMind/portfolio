@@ -455,7 +455,7 @@
 			display: grid;
 			grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 			background: $highlight;
-			width: 90%;
+			width: 80%;
 			margin: 2%;
 			padding: 4%;
 			border-radius: 4px;

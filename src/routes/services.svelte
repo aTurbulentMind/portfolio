@@ -2,10 +2,34 @@
 	<h1>Prices</h1>
 	<img src="img/money.png/" alt="" />
 	<p>
-		The price of product varies between the scope of the project. I'm an economic human and always
-		attempt to give people deal for the product they request. Just remember that cheap things are
-		not always good and good things are not always cheap.
+		The price of the product varies between the scope of the project. I'm an economic human and
+		always attempt to give people the best product I can for what they request. Just remember that
+		cheap things are not always good and good things are not always cheap.
 	</p>
+
+	<priceBox>
+		<offer>
+			<h2>Simple build.</h2>
+			<p>
+				You preferably know what you want, the color scheme you prefer, the features would you like
+				and the site is static or light functionality.
+			</p>
+		</offer>
+		<offer>
+			<h2>Moderate action.</h2>
+			<p>
+				You have an idea of your plan and general idea, but not quite sure of what you want and need
+				a bit of guidance.
+			</p>
+		</offer>
+		<offer>
+			<h2>I'll handle it.</h2>
+			<p>
+				You want to get a site up and running, but not sure how to put the jumble of brilliant ideas
+				together or make it happen. We can talk our way through it as a team.
+			</p>
+		</offer>
+	</priceBox>
 
 	<h1>Services</h1>
 
@@ -66,6 +90,17 @@
 <style lang="scss">
 	@import 'components';
 
+	priceBox {
+		display: grid;
+		grid-template-columns: 1fr;
+		margin-right: 8%;
+
+		offer {
+			@include glassBack;
+			margin: 4%;
+		}
+	}
+
 	.social {
 		img {
 			margin-bottom: -30px;
@@ -79,5 +114,17 @@
 	img {
 		max-width: 8%;
 		margin: 0 0 -13% 8%;
+	}
+
+	@media only screen and (min-width: 740px) {
+		priceBox {
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+
+	@media only screen and (min-width: 980px) {
+		priceBox {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
 	}
 </style>
