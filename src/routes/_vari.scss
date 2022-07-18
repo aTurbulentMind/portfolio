@@ -1,13 +1,14 @@
 //colors
 
-$textColorMain: #fdfdfa;
-$backgroundMain:#050207;
+$textColorMain: #fbfcfe;
+$backgroundMain:#020307;
 $backgroundSecond:#1e0c22;
-$backgroundThird: #1d012b;
-$extra:#04c9fa;
-$highlight:#d668f1;
+$backgroundThird: #271641;
+$extra:#3BB5F5;
+$highlight:#475FF4;
+$attention:#F5EF2F;
 $gradient:linear-gradient(90deg, rgb(3, 7, 8) 0%, rgb(6, 8, 15) 35%, rgb(17, 10, 26) 100%);
-$mainShadow:0 3px 12px 3px #1a8a9970;
+$mainShadow:0 3px 12px 5px #475FF470;
 
 $transitSpeed: 0.3s;
 
@@ -23,12 +24,12 @@ sans-serif;
 // mixins
 
 @mixin glassBack() {
-    background: #0d122225;
-    box-shadow: 0 3px 12px 3px $backgroundSecond;
+    background: $extra;
+    box-shadow: 0 3px 12px 3px $backgroundThird;
     backdrop-filter: blur(1.5px);
     -webkit-backdrop-filter: blur(1.5px);
     border-radius: 10px;
-    border: 1px solid #0d132363;
+    border: 1px solid #16203b63;
 }
 
 

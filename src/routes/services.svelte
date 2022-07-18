@@ -98,6 +98,12 @@
 		offer {
 			@include glassBack;
 			margin: 4%;
+			color: $backgroundMain;
+
+			&:hover {
+				box-shadow: $mainShadow;
+				transition: $transitSpeed;
+			}
 		}
 	}
 

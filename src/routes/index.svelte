@@ -54,8 +54,10 @@
 		victory. The excitement of the new opportunities ignights a bonfire of inspiration in the owner.
 		New levels of expansion and growth shown through analytics allow cognizant use of data to
 		further improve the performance of the product. We can work for your content to bring that
-		change to your life. <br /><br /><br />
+		change to your life.
 	</p>
+
+	<p class="butTwo"><a href="/contact/">Contact me.</a></p>
 
 	<div class="social">
 		<a href="/testim/">
@@ -65,7 +67,7 @@
 		>
 	</div>
 
-	<h2 class="social-words">Debt$Net</h2>
+	<h2 class="social-words butTwo"><a href="/testim/"> Debt$Net</a></h2>
 	<p>
 		The Computer Manager is a company who makes software for debt collection agencies. Their site
 		felt like 1995 so I invested the time to make something a bit more up to date and responsive.
@@ -78,14 +80,14 @@
 		>
 	</div>
 
-	<h2 class="social-words">Harbored Dreams</h2>
+	<h2 class="social-words butTwo"><a href="/testim/"> Harbored Dreams</a></h2>
 	<p>
 		Harbored Dreams is a great heavy metal band out of western Washington. They are new and have not
 		released their first album yet. I talked to one of the members and he gave me the ok to build
 		them something. &nbsp; &nbsp; &nbsp;
 	</p>
 
-	<h2><a href="/contact/"> Contact me</a></h2>
+	<h2 class="butTwo"><a href="/contact/"> Contact me</a></h2>
 
 	<container>
 		<form action="https://formsubmit.co/joelkrivers@gmail.com" method="POST">
@@ -441,131 +443,6 @@
 		}
 	}
 
-	container {
-		letter-spacing: 1.5px;
-
-		h2 {
-			color: $textColorMain;
-			font-size: 3vw;
-			text-align: center;
-			grid-column: 1;
-		}
-
-		form {
-			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-			background: $highlight;
-			width: 80%;
-			margin: 2%;
-			padding: 4%;
-			border-radius: 4px;
-			text-transform: capitalize;
-		}
-
-		wrapper {
-			width: 100%;
-			display: grid;
-			grid-gap: 30px;
-			gap: 30px;
-		}
-
-		box {
-			width: 100%;
-			position: relative;
-			padding: 20px;
-		}
-
-		input,
-		textarea {
-			width: 85%;
-			font-size: 2vw;
-			background: transparent;
-			border: none;
-			outline: none;
-			border-bottom: 1px solid $textColorMain;
-			transition: 0.3s linear;
-		}
-
-		input:focus,
-		input:valid,
-		textarea:focus,
-		textarea:valid {
-			padding: 10px;
-			color: $textColorMain;
-			background: $backgroundSecond;
-			margin: 10px;
-			border-radius: 4px;
-			font-size: 2.5vw;
-		}
-
-		label {
-			position: absolute;
-			top: 0;
-			left: 0;
-			color: $textColorMain;
-			font-size: 2.5vw;
-			font-weight: bold;
-			padding: 10px;
-			transition: 0.3s linear;
-		}
-
-		input:focus ~ label,
-		input:valid ~ label,
-		textarea:focus ~ label,
-		textarea:valid ~ label {
-			padding: 0;
-		}
-
-		.section1 {
-			input {
-				accent-color: hotpink;
-				block-size: 45px;
-				inline-size: 18px;
-			}
-
-			input:focus,
-			input:valid,
-			textarea:focus,
-			textarea:valid {
-				padding: 0.5px;
-				margin: 0.5px;
-			}
-		}
-
-		.flex-row {
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			align-items: center;
-			justify-content: center;
-
-			label {
-				padding: 0 10px;
-			}
-		}
-
-		button {
-			background: rgba(16, 15, 17, 0.616);
-			outline: none;
-			font-weight: 100;
-			letter-spacing: 4px;
-			border: 1px solid $extra;
-			border-radius: 4px;
-			color: $textColorMain;
-			text-transform: uppercase;
-			padding: 5px;
-			margin: -8% 4% 4% 4%;
-			font-family: $mainFont;
-
-			&:hover {
-				transition: all 0.2s ease-in-out;
-				background: $textColorMain;
-				color: $backgroundMain;
-				transform: scale(1.05);
-			}
-		}
-	}
-
 	@media (max-width: 768px) {
 		.art-banner {
 			grid-template-columns: 20px 1fr 1fr 1fr 60px;
@@ -628,16 +505,6 @@
 				max-width: 8%;
 				position: relative;
 				margin-bottom: 15%;
-			}
-		}
-
-		container {
-			label {
-				font-size: 2vw;
-			}
-
-			button {
-				margin-top: 15%;
 			}
 		}
 	}

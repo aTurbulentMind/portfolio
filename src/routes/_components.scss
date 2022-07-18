@@ -1,167 +1,325 @@
 @import 'vari';
 
-    * { 
-        padding:0;
-        margin: 0;
-    }
- 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
-        background: $gradient;
-        color: $textColorMain;
-        font-family: $mainFont;
-        overflow-x: hidden;
-        margin-bottom: 5%;
+    background: $gradient;
+    color: $textColorMain;
+    font-family: $mainFont;
+    overflow-x: hidden;
+    margin-bottom: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: $highlight;
+}
+
+h1 {
+    margin: 10%;
+    font-size: 2.5vw;
+    font-family: $secondaryFont;
+    letter-spacing: 2px;
+}
+
+h2 {
+    margin: 10%;
+    font-size: 2.25vw;
+    font-family: $secondaryFont;
+    letter-spacing: 2px;
+}
+
+h3 {
+    margin: 10%;
+    font-size: 2vw;
+    font-family: $secondaryFont;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 1.7vw;
+    margin: 9% 18%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.altFont {
+    font-family: $secondaryFont;
+    font-weight: 400;
+}
+
+.butTwo {
+    a {
+        @include glassBack;
+        color: $backgroundMain;
+        padding: 3px;
+        font-weight: 600;
+
+        &:hover {
+            transition: $transitSpeed;
+            background: $attention;
+            box-shadow: $mainShadow;
+            transform: scale3d(1.02);
+            padding: 5px;
+        }
+    }
+}
+
+.vid {
+    width: 90vw;
+    height: 100vh;
+}
+
+.social {
+
+    img {
+        width: 50%;
+        height: 50%;
+        margin: 15% 15% 20% 15%;
+        border: 1px solid $backgroundSecond;
+        border-radius: 2%;
+
+        &:hover {
+            box-shadow: $mainShadow;
+            transition: $transitSpeed;
+        }
     }
 
-    a {
-        text-decoration: none;
-        color: $highlight;
+
+}
+
+container {
+    letter-spacing: 1.5px;
+
+    h2 {
+        color: $textColorMain;
+        font-size: 3vw;
+        text-align: center;
+        grid-column: 1;
+    }
+
+    form {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        background: $highlight;
+        width: 80%;
+        margin: 2%;
+        padding: 4%;
+        border-radius: 4px;
+        text-transform: capitalize;
+    }
+
+    wrapper {
+        width: 100%;
+        display: grid;
+        grid-gap: 30px;
+        gap: 30px;
+    }
+
+    box {
+        width: 100%;
+        position: relative;
+        padding: 20px;
+    }
+
+    input,
+    textarea {
+        width: 85%;
+        font-size: 2vw;
+        background: transparent;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid $textColorMain;
+        transition: 0.3s linear;
+    }
+
+    input:focus,
+    input:valid,
+    textarea:focus,
+    textarea:valid {
+        padding: 10px;
+        color: $textColorMain;
+        background: $backgroundSecond;
+        margin: 10px;
+        border-radius: 4px;
+        font-size: 2.5vw;
+    }
+
+    label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: $textColorMain;
+        font-size: 2.5vw;
+        font-weight: bold;
+        padding: 10px;
+        transition: 0.3s linear;
+    }
+
+    input:focus~label,
+    input:valid~label,
+    textarea:focus~label,
+    textarea:valid~label {
+        padding: 0;
+    }
+
+    .section1 {
+        input {
+            accent-color: hotpink;
+            block-size: 45px;
+            inline-size: 18px;
+        }
+
+        input:focus,
+        input:valid,
+        textarea:focus,
+        textarea:valid {
+            padding: 0.5px;
+            margin: 0.5px;
+        }
+    }
+
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        label {
+            padding: 0 10px;
+        }
+    }
+
+    button {
+        background: rgba(16, 15, 17, 0.616);
+        outline: none;
+        font-weight: 600;
+        letter-spacing: 4px;
+        border: 1px solid $extra;
+        border-radius: 4px;
+        color: $textColorMain;
+        text-transform: uppercase;
+        padding: 5px;
+        margin: -8% 4% 4% 4%;
+        font-family: $mainFont;
+
+        &:hover {
+            transition: all 0.2s ease-in-out;
+            background: $attention;
+            color: $backgroundMain;
+            transform: scale(1.03);
+            box-shadow: $mainShadow;
+        }
+    }
+}
+
+
+@media (max-width: 991px) {
+
+    .container {
+        grid-template: "1fr 1fr 1fr 250px""1fr 1fr 1fr250px""1fr 1fr 1fr 250px""1fr 1fr 1fr 250px""1fr 1fr 1fr 250px";
+    }
+
+    p,
+    h1,
+    h2,
+    h3 {
+        margin: 13%;
+    }
+
+}
+
+.social {
+
+    img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .vid {
+        width: 93vw;
+        height: 100vh;
     }
 
     h1 {
-        margin: 10%;
-        font-size: 2.5vw;
-        font-family: $secondaryFont;
-        letter-spacing:2px;
+        font-size: 4vw;
+        margin: 15% 12%;
     }
 
     h2 {
-        margin: 10%;
-        font-size: 2.25vw;
-        font-family: $secondaryFont;
-        letter-spacing:2px;
+        font-size: 3.25vw;
+        margin: 15% 12%;
     }
 
     h3 {
-        margin: 10%;
-        font-size: 2vw;
-        font-family: $secondaryFont;
-        letter-spacing:2px;
+        font-size: 3vw;
+        margin: 15% 12%;
     }
 
     p {
-        font-size: 1.7vw;
-        margin: 9% 18%;
-        line-height: 1.5;
-        letter-spacing: 1px;
+        margin: 15%;
+        font-size: 2.5vw;
     }
 
-   .altFont{
-       font-family: $secondaryFont;
-       font-weight: 400;
-   }
+    a {
+        font-size: 2.5vw;
 
-   .vid {
-       width: 90vw;
-       height: 100vh;
-   }
+    }
 
-   .social {
-
-       img {
-           width: 50%;
-           height: 50%;
-           margin: 15% 15% 20% 15%;
-           border: 1px solid $backgroundSecond;
-           border-radius: 2%;
-       }
-   }
-
-
-      @media (max-width: 991px) {
-          
-          .container {
-              grid-template: "1fr 1fr 1fr 250px" "1fr 1fr 1fr250px" "1fr 1fr 1fr 250px" "1fr 1fr 1fr 250px" "1fr 1fr 1fr 250px";
-          }
-
-          p,
-          h1,
-          h2,
-          h3 {
-              margin: 13%;
-          }
-
-      }
-
-      .social {
-
-        img{
-          width: 70%;
-          height: 70%;
-            }
-
-          .vid {
-              width: 93vw;
-              height: 100vh;
-          }
-
-           h1 {
-               font-size: 4vw;
-               margin: 15% 12%;
-           }
-
-           h2 {
-               font-size: 3.25vw;
-               margin: 15% 12%;
-           }
-
-           h3 {
-               font-size: 3vw;
-               margin: 15% 12%;
-           }
-
-           p {
-               margin: 15%;
-               font-size: 2.5vw;
-           }
-
-           a {
-               font-size: 2.5vw;
-               
-           }
-
-           .nav-item{
-           .link-text {
-               font-size: 2.5vw;
-           }
+    .nav-item {
+        .link-text {
+            font-size: 2.5vw;
         }
-      }
+    }
+}
 
-      @media (max-width: 768px) {
-         
+@media (max-width: 768px) {
 
-          .art-banner-bg {
-              
-              background-size: 60%;
-              
-          }
 
-          h1 {
-              font-size: 5vw;
-              margin: 15% 12%;
-          }
+    .art-banner-bg {
 
-          h2 {
-              font-size: 4.25vw;
-              margin: 15% 12%;
-          }
+        background-size: 60%;
 
-          h3 {
-              font-size: 4vw;
-              margin: 15% 12%;
-          }
+    }
 
-          p {
-              margin: 15% 12%;
-              font-size: 3.5vw;
-          }
+    h1 {
+        font-size: 5vw;
+        margin: 15% 12%;
+    }
 
-          a {
-              font-size: 3.5vw;
-              margin: 17% 0;
-          }
+    h2 {
+        font-size: 4.25vw;
+        margin: 15% 12%;
+    }
 
-          
+    h3 {
+        font-size: 4vw;
+        margin: 15% 12%;
+    }
 
-      }
+    p {
+        margin: 15% 12%;
+        font-size: 3.5vw;
+    }
 
+    a {
+        font-size: 3.5vw;
+        margin: 17% 0;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    container {
+        label {
+            font-size: 2vw;
+        }
+
+        button {
+            margin-top: 15%;
+        }
+    }
+}

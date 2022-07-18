@@ -2,6 +2,14 @@
 	<h1>The Empty Account Articles</h1>
 
 	<articles>
+		<a href="/blog/lifeHppanes/">
+			<article>
+				<h2>life Hppanes 07/18/22</h2>
+
+				<img src="/blogPic/lifeHappened/one.png" alt="computer lit by a lantern" />
+			</article>
+		</a>
+
 		<a href="/blog/itsNotSprite/">
 			<article>
 				<h2>Sprite? 07/11/22</h2>
