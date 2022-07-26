@@ -2,6 +2,12 @@
 	<h1>The Empty Account Articles</h1>
 
 	<articles>
+		<a href="/blog/finalNote/">
+			<article>
+				<h2>Final note</h2>
+			</article>
+		</a>
+
 		<a href="/blog/lifeHppanes/">
 			<article>
 				<h2>life Hppanes 07/18/22</h2>
