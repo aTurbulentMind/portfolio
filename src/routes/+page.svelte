@@ -48,24 +48,23 @@
 
 	<h1>I'm here to help</h1>
 	<p>
-		Today, the world is intwined and threaded with the web. I am here to help those who need
+		Today, the material world is woven and threaded within the web. I am here to help those who need
 		projection into the borderless market of today. Businesses can grow without bounds when they
 		contribute to the world.
 	</p>
 
 	<p>
-		I find the most energy when helping somebody succeed. Everyone deserves their little bits of
-		victory. The excitement of the new opportunities ignights a bonfire of inspiration in the owner.
-		New levels of expansion and growth shown through analytics allow cognizant use of data to
-		further improve the performance of the product. We can work for your content to bring that
-		change to your life.
+		I am the most productive when helping somebody succeed. Everyone deserves their little bits of
+		victory. Lets bring you to new levels of expansion and growth. We can make cognizant use of data
+		to further improve the performance of your product. We will work with your ideas to bring the
+		change you deserve to your life and business.
 	</p>
 
 	<h3 class="butt">
 		<a href="/contact/">Contact me.</a>
 	</h3>
 
-	<!--reviews-->
+	<!--reviews
 
 	<h2>Here is what people are saying about my work:</h2>
 
@@ -79,7 +78,7 @@
 					stroke-width="0.32"
 				/>
 			</svg>
-			<div class="card-title">Artistic Artisn Counters</div>
+			<div class="card-title">Artistic Artisan Counters</div>
 			<br />
 			<div class="body">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, enim quisquam? Hic.
@@ -118,47 +117,55 @@
 			</div>
 		</div>
 	</div>
+-->
 
 	<!--Completed work-->
 	<a href="/testim/">
 		<h2>Check out some completed projects:</h2>
 	</a>
-
 	<!--card-->
 	<div class="comp_block">
-		<img src="img/debtBanner.png" alt="" />
-		<div class="comp_title"><h2>Artistic Artisn Counters</h2></div>
+		<img src="img/counterToppy.png" alt="" />
+		<div class="comp_title"><h2>Artistic Artisan Counters</h2></div>
 
 		<div class="comp_body">
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, enim quisquam? Hic.</p>
+			<p>
+				Laurie at AAC had no website at all. I used it as a first attempt to add 3d objects to a
+				page.
+			</p>
 
-			<a href="/">CLICK</a>
+			<a href="https://superfancycounterbuild.netlify.app/">Check it out</a>
 		</div>
 	</div>
 	<!--end-->
 
 	<!--card-->
 	<div class="comp_block_l">
-		<img class="img_l" src="img/debtBanner.png" alt="" />
-		<div class="comp_title_l"><h2>Artistic Artisn Counters</h2></div>
+		<img class="img_l" src="img/landy.png" alt="" />
+		<div class="comp_title_l"><h2>Toms Yard & Bed</h2></div>
 
 		<div class="comp_body_l">
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, enim quisquam? Hic.</p>
+			<p>
+				Tom is a friend who has been building his own landscaping company for a while. I figured I
+				could help by building him a website.
+			</p>
 
-			<a href="/">CLICK</a>
+			<a href="https://tomscompanybuild.netlify.app/">Check it out</a>
 		</div>
 	</div>
-	<!--end-->
+	<!--end-->>
 
 	<!--card-->
 	<div class="comp_block">
-		<img src="img/debtBanner.png" alt="" />
-		<div class="comp_title"><h2>Artistic Artisn Counters</h2></div>
+		<img class="img" src="img/debtBanner.png" alt="" />
+		<div class="comp_title"><h2>DEBT$NET</h2></div>
 
 		<div class="comp_body">
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, enim quisquam? Hic.</p>
+			<p>
+				The original site was made in 1995 and sure felt like it. So I brought them into the future.
+			</p>
 
-			<a href="/">CLICK</a>
+			<a href="https://debtnet5build.netlify.app/">Check it out</a>
 		</div>
 	</div>
 	<!--end-->
@@ -172,7 +179,7 @@
 			<wrapper>
 				<box>
 					<input type="text" name="name" id="name" required />
-					<label for="fname">First and Last Name</label>
+					<label for="fname">First & Last Name</label>
 				</box>
 			</wrapper>
 
@@ -205,7 +212,7 @@
 			<wrapper>
 				<box>
 					<textarea id="mes" required />
-					<label for="mes">Words here and stuff...</label>
+					<label for="mes">Comments or Questions:</label>
 				</box>
 			</wrapper>
 
@@ -346,11 +353,12 @@
 		background: $backMain;
 		grid-template-columns: 20px 1fr 1fr 1fr 20px;
 		grid-template-rows: 20px 1fr 1fr 1fr 20px;
-		margin: 5px 0;
-		z-index: 99;
+		margin: 5px 0 0 5px;
+		z-index: 999;
 
 		a {
 			font-size: 3vw;
+			z-index: 999;
 		}
 	}
 
@@ -363,9 +371,10 @@
 		grid-column: 1 / -1;
 		grid-row: 1 / -1;
 
+		z-index: 999;
+
 		img {
-			width: 100%;
-			padding: 15%;
+			width: 105%;
 		}
 	}
 
@@ -378,7 +387,7 @@
 		grid-row: 2 /* no need to type one*/;
 		align-self: center;
 		justify-self: center;
-		z-index: 3;
+		z-index: 999;
 	}
 
 	.banner-face {
@@ -406,7 +415,7 @@
 		grid-row: 3 /* no need to type one*/;
 		align-self: center;
 		justify-self: center;
-		z-index: 3;
+		z-index: 999;
 	}
 
 	.coaButt2 {
@@ -418,13 +427,14 @@
 		margin: 10%;
 		width: fit-content;
 		border-radius: 10px;
-		z-index: 3;
+		z-index: 999;
 		padding: 2%;
 		background-color: rgba(10, 3, 14, 0.166);
 
 		svg {
 			width: 20px;
 			height: 20px;
+			z-index: 999;
 		}
 	}
 

@@ -1,18 +1,17 @@
 <body>
-	<h1>Services</h1>
+	<h1>Services:</h1>
 
 	<p>
 		The price of the product varies between the scope of the project. I'm an economic human and
-		always attempt to give people the best product I can for what they request. Just remember that
-		cheap things are not always good and good things are not always cheap.
+		always attempt to give people the best product I can to exceed expectations.
 	</p>
 
 	<priceBox>
 		<offer>
 			<h2>Simple build.</h2>
 			<p>
-				You preferably know what you want, the color scheme you prefer, the features would you like
-				and the site is static or light functionality.
+				You know what you want, the color scheme you prefer, the features you would like and the
+				site is static or has very light functionality.
 			</p>
 		</offer>
 		<offer>
@@ -47,9 +46,7 @@
 			<div class="body">
 				The user interface is how the human interacts with a computer, website, enviroment or
 				application. A well designed UI provides the user an experience that is easy and natural, in
-				turn causing the user to question what they have been missing until now. <br /><a href="/"
-					>Extra stuff</a
-				>
+				turn giving the user a comfortable and enjoyable visit.<br />
 			</div>
 		</div>
 
@@ -65,9 +62,9 @@
 
 			<div class="body">
 				UX is derived from the entire experience of the time spent at your site. How the culture
-				around you or your product feels, and how it aligns with the material in front of them. "UX
+				around you or your product feels, and how it aligns with the material in front of them. UX
 				is concerned with the entire process of acquiring and integrating a product, including
-				aspects of branding, design, usability and function." <br /><a href="/">Extra stuff</a>
+				aspects of branding, design, usability and function. <br />
 			</div>
 		</div>
 
@@ -84,8 +81,8 @@
 			<div class="body">
 				Through direct communication we can develop a conduit to the connected community of the
 				internet. Development is the whole of the process. Connecting the UI/UX, design and actual
-				product is the focus of development. We will turn your future sucess into the steps of today
-				through the tried and true practice of hard work. <br /><a href="/">Extra stuff</a>
+				product. We will turn your future sucess into the steps of today through the tried and true
+				practice of hard work. <br />
 			</div>
 		</div>
 
@@ -97,12 +94,12 @@
 				/>
 			</svg>
 
-			<div class="card-title">Website Rediesign</div>
+			<div class="card-title">Website Redesign</div>
 
 			<div class="body">
-				It is easy to have built it and let it be. Before you know it, five years have passed. Now
+				It is easy to have built it and let it be. Before you know it, ten years have passed. Now
 				what was great seems stale and in need of a refresh. Let's talk about bringing your site
-				into the future. <br /><a href="/">Extra stuff</a>
+				into the future. <br />
 			</div>
 		</div>
 
@@ -120,7 +117,7 @@
 				The process of graphic design is the interconnected bridge between the art and means of
 				dispersal to communicate the ideas of your entity. Great design works with a variety of
 				media tools in order to inspire a particular bracket. Video, audio, images and typography
-				are the backbone of graphic design. <br /><a href="/">Extra stuff</a>
+				are the backbone of graphic design. <br />
 			</div>
 		</div>
 
@@ -138,9 +135,7 @@
 				SEO is the process of getting your website to the top page of search engines. To quote
 				Wikipedia "(SEO) is the process of improving the quality and quantity of website traffic to
 				a website or a web page from search engines." Studies show people will probably not make it
-				to the second page of a search engine. So let's get you visable to the world. <br /><a
-					href="/">Extra stuff</a
-				>
+				to the second page of a search engine. So let's get you visable to the world. <br />
 			</div>
 		</div>
 	</div>
@@ -154,7 +149,6 @@
 	priceBox {
 		display: grid;
 		grid-template-columns: 1fr;
-		margin-right: 8%;
 
 		offer {
 			@include glassBack;

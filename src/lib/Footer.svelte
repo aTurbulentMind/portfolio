@@ -1,18 +1,22 @@
 <div class="footer">
-	<h1>L<br> L<br> D</h1>
+	<h1>L<br /> L<br /> D</h1>
 	<footBox>
-		<ul style="grid-row: 2;
-						grid-column: 2;">
+		<ul
+			style="grid-row: 2;
+						grid-column: 2;"
+		>
 			<li><a href="/">HOME</a></li>
-			<li><a href="/">CALL</a></li>
+			<!--<li><a href="/">CALL</a></li>-->
 			<li><a href="/contact/">CONTACT</a></li>
 			<li><a href="/services/">SERVICES</a></li>
 		</ul>
 	</footBox>
 	<footBox>
-		<ul style="grid-row: 2;
-						grid-column: 2;">
-			<li><a href="/showroom/">REVIEWS</a></li>
+		<ul
+			style="grid-row: 2;
+						grid-column: 2;"
+		>
+			<li><a href="/testim/">REVIEWS</a></li>
 			<li><a href="/about/">ABOUT</a></li>
 		</ul>
 	</footBox>
@@ -40,10 +44,9 @@
 	.footer {
 		display: grid;
 		background: $gradient;
-		margin-bottom: $marg_xxxl;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: 1fr 1fr;
-		z-index: 10;
+		z-index: 999;
 		position: relative;
 
 		footBox {
@@ -66,7 +69,6 @@
 				li {
 					margin: $marg;
 					padding: $pad_sm;
-					
 
 					a {
 						color: $textMain;
@@ -83,7 +85,7 @@
 					padding: $marg;
 					width: 10%;
 
-					&:hover{
+					&:hover {
 						@include butts;
 					}
 				}
@@ -92,10 +94,9 @@
 	}
 
 	@media (min-width: 780px) {
-
-    //foots
-    .footer {
-        margin-bottom: -8%;
-    }
-}
+		//foots
+		.footer {
+			margin-bottom: 0;
+		}
+	}
 </style>

@@ -12,7 +12,7 @@
 			<wrapper>
 				<box>
 					<input type="text" name="name" id="name" required />
-					<label for="fname">First and Last Name</label>
+					<label for="fname">First & Last Name</label>
 				</box>
 			</wrapper>
 
@@ -45,7 +45,7 @@
 			<wrapper>
 				<box>
 					<textarea id="mes" required />
-					<label for="mes">Words here and stuff...</label>
+					<label for="mes">Comments or questions:</label>
 				</box>
 			</wrapper>
 
