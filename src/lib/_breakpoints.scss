@@ -7,6 +7,25 @@
         margin: -8px 8px -8px -8px;
     }
 
+    h1,
+    h2,
+    h3,
+    h4,
+    p {
+        margin: $full_marg;
+        z-index: 10;
+    }
+
+    h2 {
+        a {
+            margin: 0 20%;
+        }
+    }
+
+    p {
+        font-size: $font;
+    }
+
     .container {
         grid-template: "1fr 1fr 1fr"250px "1fr 1fr 1fr"250px "1fr 1fr 1fr "250px "1fr 1fr 1fr"250px "1fr 1fr 1fr "250px;
     }
@@ -22,13 +41,6 @@
     .vid {
         width: 93vw;
         height: 100vh;
-    }
-
-    p,
-    h1,
-    h2,
-    h3 {
-        margin: 20%;
     }
 
     //banner page
