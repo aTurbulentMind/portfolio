@@ -36,14 +36,31 @@ h2,
 h3,
 h4,
 p {
-    margin: $full_marg;
+    margin: $qtr_marg;
     z-index: 10;
 }
 
+h1 {
+    font-size: $f-xl;
+}
+
+
+
+
 h2 {
+    font-size: $f-lg;
+
     a {
         margin: 0 20%;
     }
+}
+
+h3 {
+    font-size: $font;
+}
+
+p {
+    font-size: $f-sm;
 }
 
 
