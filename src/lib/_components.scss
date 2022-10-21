@@ -160,7 +160,7 @@ container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
         background: $highlight;
-        width: 80%;
+        width: 90%;
         margin: 5% 10%;
         padding: 4%;
         border-radius: 4px;
@@ -182,7 +182,7 @@ container {
 
         input,
         textarea {
-            width: 85%;
+            width: 65%;
             font-size: $font;
             background: transparent;
             border: none;
@@ -259,7 +259,7 @@ container {
             color: $textMain;
             text-transform: uppercase;
             padding: 5px;
-            margin: 8% 4% 4% 4%;
+            margin: 8% 10%;
             font-family: $mainFont;
 
             &:hover {

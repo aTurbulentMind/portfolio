@@ -103,7 +103,7 @@
 		padding: 0;
 		margin: 0;
 		position: absolute;
-		top: -85%;
+		top: -85px;
 		left: -85px;
 		border: 150px solid transparent;
 		cursor: default;
