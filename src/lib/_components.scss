@@ -110,9 +110,18 @@ $tSpeed: 0.3s;
     gap: $marg_xxl;
     align-items: center;
 
+
     .card {
-        padding: 20px;
-        margin: 0 12%;
+        padding: 15px;
+        margin: 0 7%;
+
+        .body {
+            font-size: $f-sm;
+
+            @media (min-width: 780px) {
+                font-size: $font;
+            }
+        }
     }
 
     svg {

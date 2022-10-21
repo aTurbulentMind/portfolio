@@ -127,7 +127,7 @@
 			<a href="https://tomscompanybuild.netlify.app/">Check it out</a>
 		</div>
 	</div>
-	<!--end-->>
+	<!--end-->
 
 	<!--card-->
 	<div class="comp_block">
