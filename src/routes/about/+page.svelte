@@ -1,5 +1,5 @@
 <body>
-	<img class="face" src="img/myFace.jpg/" alt="its my face" />
+	<img class="face" src="img/myFace.jpg" alt="its my face" />
 
 	<h1>Joel Rivers</h1>
 
@@ -25,7 +25,7 @@
 		need it.
 	</p>
 
-	<img src="img/nature2.jpg/" alt="sunrays cast though morning fog" />
+	<img src="img/nature2.jpg" alt="sunrays cast though morning fog" />
 
 	<p>
 		I do spend some time with fun things like going to concerts or playing video games. To get away
@@ -33,7 +33,7 @@
 		There is something magic living in the wild serenity of the Pacific Northwest.
 	</p>
 
-	<img src="img/nature1.jpg/" alt="a sunny day on top of a mountain at a lake. It is serene" />
+	<img src="img/nature1.jpg" alt="a sunny day on top of a mountain at a lake. It is serene" />
 
 	<p>
 		Or to unwind I may be caught spinning fire. As the world surrounding me slows at the crackling
