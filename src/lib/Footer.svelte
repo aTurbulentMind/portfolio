@@ -76,9 +76,9 @@
 			a {
 				font-size: 1vh;
 				flex-direction: row;
-				margin-left: $marg;
+				margin: 0 $marg;
 				Svg {
-					width: 15vw;
+					width: 10vw;
 				}
 			}
 		}
@@ -96,6 +96,14 @@
 						a {
 							font-size: $f-lg;
 						}
+					}
+				}
+			}
+
+			socBox {
+				a {
+					Svg {
+						width: 15vw;
 					}
 				}
 			}
