@@ -45,7 +45,7 @@
 			<wrapper>
 				<box>
 					<textarea id="mes" required />
-					<label for="mes">Comments or questions:</label>
+					<label for="mes">Comments or Questions:</label>
 				</box>
 			</wrapper>
 
@@ -140,19 +140,10 @@
 		}
 	}
 
-	@media (min-width: 750px) {
-	}
-
 	@media (min-width: 991px) {
 		container {
 			label {
 				font-size: 1.5vw;
-			}
-
-			form {
-				display: grid;
-				grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-				width: 85%;
 			}
 		}
 	}

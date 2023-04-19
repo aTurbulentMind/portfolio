@@ -42,7 +42,7 @@
 			</li>
 		</ul>
 	</nav>
-	<div class="burger" on:click={toggleMenu}>
+	<div class="burger" on:click={toggleMenu} on:keydown={() => (isMenuOpen = false)}>
 		<svg> <Logo /></svg>
 	</div>
 </div>

@@ -7,22 +7,15 @@
 <div class="footer">
 	<h1>L<br /> L<br /> D</h1>
 	<footBox>
-		<ul
-			style="grid-row: 2;
-						grid-column: 2;"
-		>
+		<ul>
 			<li><a href="/">HOME</a></li>
-			<!--<li><a href="/">CALL</a></li>-->
 			<li><a href="/contact/">CONTACT</a></li>
 			<li><a href="/services/">SERVICES</a></li>
-		</ul>
-	</footBox>
-	<footBox>
-		<ul>
 			<li><a href="/reviews/">REVIEWS</a></li>
 			<li><a href="/about/">ABOUT</a></li>
 		</ul>
 	</footBox>
+
 	<footBox>
 		<socBox>
 			<a href="/https://www.facebook.com/profile.php?id=100078803221612/"><svg> <FaBoo /></svg></a>
@@ -40,12 +33,11 @@
 		display: grid;
 		width: 100vw;
 		background: $gradient;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr 1fr;
 		z-index: 999;
 		position: relative;
 		text-shadow: $text_shadow;
-
 		color: $extra;
 
 		footBox {
@@ -68,7 +60,7 @@
 				list-style: none;
 
 				li {
-					margin: $marg;
+					margin: $qtr_marg;
 					padding: $pad_sm;
 
 					a {
@@ -81,20 +73,12 @@
 
 		socBox {
 			display: flex;
-			margin: 0 60%;
-			svg {
-				display: flex;
-				flex-direction: column;
-				background: $textMain;
-				color: $backMain;
-				border-radius: 50%;
-				margin: $marg $marg_xl;
-				padding: $marg;
-				width: 10vw;
-				height: 10vh;
-
-				&:hover {
-					@include butts;
+			a {
+				font-size: 1vh;
+				flex-direction: row;
+				margin-left: $marg;
+				Svg {
+					width: 15vw;
 				}
 			}
 		}
@@ -103,7 +87,18 @@
 	@media (min-width: 780px) {
 		//foots
 		.footer {
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-rows: 1fr 1fr;
 			margin-bottom: 0;
+			footBox {
+				ul {
+					li {
+						a {
+							font-size: $f-lg;
+						}
+					}
+				}
+			}
 		}
 	}
 </style>

@@ -145,8 +145,8 @@
 	.grid {
 		.card {
 			svg {
-				width: 80%;
-				margin: $marg 10%;
+				width: 100%;
+				margin: 0;
 				border-radius: $rad;
 			}
 		}

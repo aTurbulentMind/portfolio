@@ -92,7 +92,7 @@
 	<!--contact-->
 
 	<h3 class="butt"><a href="/contact/"> Contact</a></h3>
-
+	<br />
 	<container>
 		<form action="https://formsubmit.co/joelkrivers@gmail.com" method="POST">
 			<wrapper>
@@ -251,7 +251,6 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-family: $secondaryFont;
 
 		a {
 			position: relative;
@@ -327,17 +326,7 @@
 
 	.comp_block,
 	.comp_block_l {
-		margin: $half_marg;
-	}
-
-	.comp_block,
-	.comp_block_l {
-		.comp_body,
-		.comp_body_l {
-			a {
-				margin: $full_marg;
-			}
-		}
+		margin: 15% -4px 15% 1vw;
 	}
 
 	@media (max-width: 768px) {

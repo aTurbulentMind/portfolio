@@ -173,10 +173,8 @@ container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
         background: $highlight;
-        width: 90%;
-        margin: 5% 10%;
+        width: 100vw;
         padding: 4%;
-        border-radius: 4px;
         text-transform: capitalize;
 
 
@@ -293,11 +291,13 @@ container {
 
 .comp_block {
     @include glassBack();
-    margin: $half_marg;
+    margin: 0;
+    border-radius: 0;
 
     h2,
-    p {
-        margin: $marg;
+    p,
+    a {
+        margin: $qtr_marg;
     }
 
 
@@ -323,14 +323,14 @@ container {
 }
 
 .comp_block_l {
-
     @include glassBack();
-    margin: $half_marg;
+    border-radius: 0;
 
 
     h2,
-    p {
-        margin: $marg;
+    p,
+    a {
+        margin: $qtr_marg;
     }
 
     @media only screen and (min-width: 780px) {
