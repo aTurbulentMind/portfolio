@@ -117,7 +117,7 @@
 			<wrapper>
 				<box>
 					<input type="text" name="tel" id="tel" required />
-					<label for="tel">Preffered communication</label>
+					<label for="tel">Preferred communication</label>
 				</box>
 			</wrapper>
 
@@ -237,7 +237,7 @@
 		border-radius: 10px;
 		z-index: 999;
 		padding: 2%;
-		background-color: rgba(10, 3, 14, 0.166);
+		background-color: transparent;
 
 		svg {
 			width: 20px;
@@ -289,8 +289,7 @@
 			left: 0;
 			width: 10px;
 			height: 10px;
-			border-top: 2px solid rgb(17, 17, 1);
-			border-left: 2px solid rgb(17, 17, 1);
+
 			transition: 0.3s;
 			transition-delay: 0.2s;
 		}
@@ -310,8 +309,7 @@
 			right: 0;
 			width: 10px;
 			height: 10px;
-			border-bottom: 2px solid rgb(17, 17, 1);
-			border-right: 2px solid rgb(17, 17, 1);
+
 			transition: 0.3s;
 			transition-delay: 0;
 		}
@@ -329,7 +327,7 @@
 
 	.comp_block,
 	.comp_block_l {
-		margin: $full_marg;
+		margin: $half_marg;
 	}
 
 	.comp_block,
