@@ -195,7 +195,7 @@
 		align-self: center;
 		justify-self: center;
 		z-index: 999;
-		margin-left: 2vw;
+		margin-left: 8vw;
 	}
 
 	.banner-face {
