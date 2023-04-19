@@ -31,7 +31,7 @@
 			<wrapper>
 				<box>
 					<input type="text" name="tel" id="tel" required />
-					<label for="tel">Preffered communication</label>
+					<label for="tel">Preferred communication</label>
 				</box>
 			</wrapper>
 
@@ -54,6 +54,7 @@
 	</container>
 </body>
 
+<!--svelte-ignore css-unused-selector -->
 <style lang="scss">
 	@import '../src/lib/basecamp';
 

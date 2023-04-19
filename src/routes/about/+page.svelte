@@ -17,28 +17,25 @@
 		the waters of the Puget Sound.
 	</p>
 
+	<img src="img/nature1.jpg" alt="a sunny day on top of a mountain at a lake. It is serene" />
+
 	<p>
 		I picked up website development a few years ago. While working in a retail store, I spent down
 		time learning about building a new website for the shop. Something magic happened and I easily
 		found myself addicted. One realm of learning bled into another. As the wealth of knowledge grew,
-		so did the intrest in more. I've done it for fun, but I want to use my skills to help people who
-		need it.
+		so did the interest in more. I've done it for fun, but I want to use my skills to help people
+		who need it. I do spend some time with fun things like going to concerts or playing video games.
+		To get away and reset the brain. Hiking and backpacking is another nice escape from being
+		immersed in technology. There is something magic living in the wild serenity of the Pacific
+		Northwest.
 	</p>
 
 	<img src="img/nature2.jpg" alt="sunrays cast though morning fog" />
 
 	<p>
-		I do spend some time with fun things like going to concerts or playing video games. To get away
-		and reset the brain hiking and backpacking is a nice escape from being immersed in technology.
-		There is something magic living in the wild serenity of the Pacific Northwest.
-	</p>
-
-	<img src="img/nature1.jpg" alt="a sunny day on top of a mountain at a lake. It is serene" />
-
-	<p>
 		Or to unwind I may be caught spinning fire. As the world surrounding me slows at the crackling
 		flint stored in the bic. The rush of endorphins pumping through the veins to the endpoints of
-		each extremity. Within microseconds, the combustion seranades my soul with zen. The most
+		each extremity. Within microseconds, the combustion serenades my soul with zen. The most
 		prominent feeling of "this is peace" that I can access without a four hour trek.
 	</p>
 
@@ -54,6 +51,8 @@
 		allowfullscreen
 	/>
 </body>
+
+<!--svelte-ignore css-unused-selector -->
 
 <style lang="scss">
 	@import '../src/lib/basecamp';

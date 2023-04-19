@@ -10,6 +10,7 @@
 	<Footer />
 </body>
 
+<!--svelte-ignore css-unused-selector -->
 <style lang="scss">
 	@import '../src/lib/basecamp';
 </style>

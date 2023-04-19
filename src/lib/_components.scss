@@ -263,10 +263,12 @@ container {
         }
 
         button {
+            display: grid;
+            grid-row: 6;
             background: rgba(16, 15, 17, 0.616);
             outline: none;
-            font-weight: 400;
-            letter-spacing: 4px;
+            font-weight: 500;
+            letter-spacing: 3px;
             border: 1px solid $extra;
             border-radius: 4px;
             color: $textMain;
@@ -290,6 +292,7 @@ container {
 //completed work block
 
 .comp_block {
+    @include glassBack();
     margin: $half_marg;
 
     h2,
@@ -320,7 +323,10 @@ container {
 }
 
 .comp_block_l {
+
+    @include glassBack();
     margin: $half_marg;
+
 
     h2,
     p {
