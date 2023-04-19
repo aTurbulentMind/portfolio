@@ -9,7 +9,7 @@
 		<div class="art-banner-bg" />
 		<div class="banner-text">Lantern Light Development</div>
 		<!--	<div class="banner-face"><img src="img/porffy.png/" alt="my face" /></div>-->
-		<div class="banner-phrase">"I'll be awake into the lanterns light developing your dreams."</div>
+		<div class="banner-phrase">"Awake into the lanterns light developing your dreams."</div>
 
 		<!--entry banner-->
 
