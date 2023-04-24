@@ -5,24 +5,26 @@
 </script>
 
 <div class="footer">
-	<h1>L<br /> L<br /> D</h1>
 	<footBox>
 		<ul>
 			<li><a href="/">HOME</a></li>
 			<li><a href="/contact/">CONTACT</a></li>
 			<li><a href="/services/">SERVICES</a></li>
+		</ul>
+		<ul>
 			<li><a href="/reviews/">REVIEWS</a></li>
 			<li><a href="/about/">ABOUT</a></li>
+			<!--		<li><a href="/test/">test</a></li>-->
 		</ul>
 	</footBox>
-
+	<!--
 	<footBox>
 		<socBox>
 			<a href="/https://www.facebook.com/profile.php?id=100078803221612/"><svg> <FaBoo /></svg></a>
 			<a href="https://twitter.com/LanternLightDev/"><svg> <Twitt /> </svg></a>
 			<a href="https://www.instagram.com/lanternlightdevelopment/"><svg> <Insta /></svg></a>
 		</socBox>
-	</footBox>
+	</footBox>-->
 </div>
 
 <!--svelte-ignore css-unused-selector -->
@@ -30,33 +32,26 @@
 	@import 'basecamp';
 
 	.footer {
-		display: grid;
+		display: flex;
 		width: 100vw;
 		background: $gradient;
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 1fr 1fr;
 		z-index: 999;
-		position: relative;
 		text-shadow: $text_shadow;
 		color: $extra;
+		transition: transform 0.2s ease-in-out;
+		justify-content: space-between;
+		align-items: center;
+		height: fit-content;
 
 		footBox {
 			margin: 8% 0 0 0;
-			h1 {
-				display: grid;
-				grid-row: 1;
-				grid-column: 1;
-				margin: $marg;
-				padding: $pad;
-				font-size: $f-sm;
-			}
 
 			ul {
-				display: grid;
-				grid-row: 2;
-				grid-column: 2;
-				position: relative;
-				margin: 5% 3% -8% 10%;
+				width: 100vw;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
 				list-style: none;
 
 				li {
@@ -87,8 +82,6 @@
 	@media (min-width: 780px) {
 		//foots
 		.footer {
-			grid-template-columns: 1fr 1fr 1fr;
-			grid-template-rows: 1fr 1fr;
 			margin-bottom: 0;
 			footBox {
 				ul {

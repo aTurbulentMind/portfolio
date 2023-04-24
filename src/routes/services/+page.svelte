@@ -152,21 +152,6 @@
 		}
 	}
 
-	.social {
-		img {
-			margin-bottom: -30px;
-		}
-	}
-
-	p {
-		margin: 5% 10% 10% 20%;
-	}
-
-	img {
-		max-width: 8%;
-		margin: 0 0 -13% 8%;
-	}
-
 	@media only screen and (min-width: 740px) {
 		priceBox {
 			grid-template-columns: 1fr 1fr;

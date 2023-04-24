@@ -1,4 +1,3 @@
-<!---->
 <script>
 	import Logo from '../lib/svg/logo.svelte';
 	let isMenuOpen = false;

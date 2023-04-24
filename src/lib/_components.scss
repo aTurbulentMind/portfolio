@@ -1,8 +1,3 @@
-//upper
-.upper {
-    z-index: 30;
-}
-
 // mixins
 
 @mixin glassBack() {
@@ -11,7 +6,7 @@
     backdrop-filter: blur(1.5px);
     -webkit-backdrop-filter: blur(1.5px);
     border-radius: $rad;
-    border: $thick solid $backTre;
+    border: $thick solid $backTwo;
 }
 
 @mixin grid() {
@@ -38,12 +33,6 @@
     }
 }
 
-
-//transit/ani
-$tSpeed: 0.3s;
-
-
-
 //buttons
 
 .butt {
@@ -56,6 +45,10 @@ $tSpeed: 0.3s;
     padding: $pad_sm;
     margin: $marg;
     z-index: 10;
+
+    @media (min-width: 780px) {
+        margin: 0 25%;
+    }
 }
 
 .butTwo {
@@ -76,14 +69,12 @@ $tSpeed: 0.3s;
     }
 }
 
-
 //card
 .card {
     display: block;
     height: fit-content;
     margin: $marg_xxl;
     padding: $pad;
-    border: $bord;
     box-shadow: $mainShadow;
     border-radius: $rad;
     background: $backHallow;
@@ -138,25 +129,6 @@ $tSpeed: 0.3s;
         gap: $pad_xxl;
     }
 }
-
-
-//social
-.social {
-
-    img {
-        width: 50%;
-        height: 50%;
-        margin: 15% 15% 20% 15%;
-        border: 1px solid $backTwo;
-        border-radius: 2%;
-
-        &:hover {
-            box-shadow: $mainShadow;
-            transition: $tSpeed;
-        }
-    }
-}
-
 
 //form
 container {
@@ -283,11 +255,33 @@ container {
                 box-shadow: $mainShadow;
             }
         }
+
+        @media (min-width: 780px) {
+            container {
+                grid-template: "1fr 1fr 1fr"250px "1fr 1fr 1fr"250px "1fr 1fr 1fr "250px "1fr 1fr 1fr"250px "1fr 1fr 1fr "250px;
+            }
+        }
+
+        @media (min-width: 991px) {
+            form {
+                grid-column: 2;
+                grid-row: 4;
+            }
+
+            container {
+                label {
+                    font-size: 1.5vw;
+                }
+            }
+        }
     }
 }
 
-
 //completed work block
+.comp_block,
+.comp_block_l {
+    margin: 10vh 0;
+}
 
 .comp_block {
     @include glassBack();
@@ -299,7 +293,6 @@ container {
     a {
         margin: $qtr_marg;
     }
-
 
     @media only screen and (min-width: 780px) {
         display: grid;
@@ -326,7 +319,6 @@ container {
     @include glassBack();
     border-radius: 0;
 
-
     h2,
     p,
     a {
@@ -351,5 +343,83 @@ container {
         .comp_body_l {
             grid-column: 1;
         }
+    }
+}
+
+
+.follow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        position: relative;
+        padding: 10px 30px;
+        margin: 6% 2%;
+        color: $textMain;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 3vw;
+        overflow: hidden;
+        transition: 0.3s;
+        -webkit-box-reflect: below 1px linear-gradient(transparent, #0003);
+    }
+
+    a:nth-child(1) {
+        filter: hue-rotate(215deg);
+    }
+
+    a:nth-child(3) {
+        filter: hue-rotate(270deg);
+    }
+
+    a:hover {
+        background: #e42886;
+        color: rgb(201, 201, 201);
+        box-shadow: 0 0 50px #e42886;
+        transition-delay: 0.2s;
+    }
+
+    a:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        border-top: 2px solid rgb(17, 17, 1);
+        border-left: 2px solid rgb(17, 17, 1);
+        transition: 0.3s;
+        transition-delay: 0.2s;
+    }
+
+    a:hover:before {
+        width: 100%;
+        height: 100%;
+        border-top: 2px solid rgb(201, 201, 201);
+        border-left: 2px solid rgb(201, 201, 201);
+        transition-delay: 0;
+    }
+
+    a:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 10px;
+        height: 10px;
+        border-bottom: 2px solid rgb(17, 17, 1);
+        border-right: 2px solid rgb(17, 17, 1);
+        transition: 0.3s;
+        transition-delay: 0;
+    }
+
+    a:hover:after {
+        width: 100%;
+        height: 100%;
+        border-bottom: 2px solid rgb(201, 201, 201);
+        border-right: 2px solid rgb(201, 201, 201);
+        transition-delay: 0.2s;
     }
 }

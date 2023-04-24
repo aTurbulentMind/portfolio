@@ -60,17 +60,6 @@
 	img {
 		width: 80%;
 		margin: 0 10%;
-		border-radius: 4px;
-	}
-
-	ul {
-		list-style: none;
-		margin: 7%;
-		font-size: 2.25vw;
-	}
-
-	.vid {
-		max-width: 99%;
 	}
 
 	@media (min-width: 700px) {

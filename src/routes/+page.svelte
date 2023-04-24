@@ -22,7 +22,7 @@
 		</div>
 	</div>
 
-	<!--welcome infro-->
+	<!--welcome info-->
 
 	<h1>I'm here to help</h1>
 	<p>
@@ -247,87 +247,7 @@
 		}
 	}
 
-	.follow {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-
-		a {
-			position: relative;
-			padding: 10px 30px;
-			margin: 6% 0;
-			color: $textMain;
-			text-decoration: none;
-			text-transform: uppercase;
-			letter-spacing: 2px;
-			font-size: 3vw;
-			overflow: hidden;
-			transition: 0.3s;
-			-webkit-box-reflect: below 1px linear-gradient(transparent, #0003);
-		}
-
-		a:nth-child(1) {
-			filter: hue-rotate(215deg);
-		}
-
-		a:nth-child(3) {
-			filter: hue-rotate(270deg);
-		}
-
-		a:hover {
-			background: #e42886;
-			color: rgb(201, 201, 201);
-			box-shadow: 0 0 50px #e42886;
-			transition-delay: 0.2s;
-		}
-
-		a:before {
-			content: '';
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 10px;
-			height: 10px;
-
-			transition: 0.3s;
-			transition-delay: 0.2s;
-		}
-
-		a:hover:before {
-			width: 100%;
-			height: 100%;
-			border-top: 2px solid rgb(201, 201, 201);
-			border-left: 2px solid rgb(201, 201, 201);
-			transition-delay: 0;
-		}
-
-		a:after {
-			content: '';
-			position: absolute;
-			bottom: 0;
-			right: 0;
-			width: 10px;
-			height: 10px;
-
-			transition: 0.3s;
-			transition-delay: 0;
-		}
-
-		a:hover:after {
-			width: 100%;
-			height: 100%;
-			border-bottom: 2px solid rgb(201, 201, 201);
-			border-right: 2px solid rgb(201, 201, 201);
-			transition-delay: 0.2s;
-		}
-	}
-
 	//completed work block
-
-	.comp_block,
-	.comp_block_l {
-		margin: 15% -4px 15% 1vw;
-	}
 
 	@media (max-width: 768px) {
 		.art-banner {
@@ -352,29 +272,37 @@
 	}
 
 	@media only screen and (min-width: 780px) {
-		.banner-face {
-			grid-row: 2;
-			grid-column: 4;
-			width: 50%;
-			height: 80%;
-
-			img {
-				width: 100%;
-				height: 100%;
+		//banner page
+		.art-banner {
+			.banner-text {
+				padding-top: $pad;
+				font-size: $f-xxxl;
 			}
-		}
 
-		.coaButt2 {
-			svg {
-				width: 45px;
-				height: 45px;
+			.banner-face {
+				grid-row: 2;
+				grid-column: 4;
+				width: 50%;
+				height: 80%;
+
+				img {
+					width: 100%;
+					height: 100%;
+				}
 			}
-		}
 
-		.social {
-			width: 50%;
-			height: 50%;
-			margin: 5% 0 0 10%;
+			.coaButt2 {
+				svg {
+					width: 45px;
+					height: 45px;
+				}
+			}
+
+			.social {
+				width: 50%;
+				height: 50%;
+				margin: 5% 0 0 10%;
+			}
 		}
 	}
 </style>
