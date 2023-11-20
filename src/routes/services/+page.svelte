@@ -47,7 +47,7 @@
 
 			<div class="card-title">UI</div>
 
-			<div class="body">
+			<div class="card-body">
 				The user interface is how the human interacts with a computer, website, environment or
 				application. A well designed UI provides the user an experience that is easy and natural, in
 				turn giving the user a comfortable and enjoyable visit.<br />
@@ -59,7 +59,7 @@
 
 			<div class="card-title">UX</div>
 
-			<div class="body">
+			<div class="card-body">
 				UX is derived from the entire experience of the time spent at your site. How the culture
 				around you or your product feels, and how it aligns with the material in front of them. UX
 				is concerned with the entire process of acquiring and integrating a product, including
@@ -72,7 +72,7 @@
 
 			<div class="card-title">Development</div>
 
-			<div class="body">
+			<div class="card-body">
 				Through direct communication we can develop a conduit to the connected community of the
 				internet. Development is the whole of the process. Connecting the UI/UX, design and actual
 				product. We will turn your future success into the steps of today through the tried and true
@@ -85,7 +85,7 @@
 
 			<div class="card-title">Website Redesign</div>
 
-			<div class="body">
+			<div class="card-body">
 				It is easy to have built it and let it be. Before you know it, ten years have passed. Now
 				what was great seems stale and in need of a refresh. Let's talk about bringing your site
 				into the future. <br />
@@ -97,24 +97,11 @@
 
 			<div class="card-title">Graphic Design</div>
 
-			<div class="body">
+			<div class="card-body">
 				The process of graphic design is the interconnected bridge between the art and means of
 				dispersal to communicate the ideas of your entity. Great design works with a variety of
 				media tools in order to inspire a particular bracket. Video, audio, images and typography
 				are the backbone of graphic design. <br />
-			</div>
-		</div>
-
-		<div class="card">
-			<svg><Seo /></svg>
-
-			<div class="card-title">Search Engine Optimization</div>
-
-			<div class="body">
-				SEO is the process of getting your website to the top page of search engines. To quote
-				Wikipedia "(SEO) is the process of improving the quality and quantity of website traffic to
-				a website or a web page from search engines." Studies show people will probably not make it
-				to the second page of a search engine. So let's get you visible to the world. <br />
 			</div>
 		</div>
 	</div>

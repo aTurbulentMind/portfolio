@@ -8,6 +8,23 @@
 	<h2>A few completed projects:</h2>
 
 	<!--Completed work-->
+
+	<!--card-->
+	<div class="comp_block_l">
+		<img class="img_l" src="img/artCountV4.png" alt="" />
+		<div class="comp_title_l"><h2>3D counter-top store</h2></div>
+
+		<div class="comp_body_l">
+			<p>
+				I took a course on building 3d websites. This was a way for me to start to understand the
+				concepts.
+			</p>
+
+			<a href="https://artisan-countertop-v4.netlify.app/">Check it out</a>
+		</div>
+	</div>
+	<!--end-->
+
 	<!--card-->
 	<div class="comp_block">
 		<img src="img/shoppo.png" alt="" />
@@ -20,6 +37,7 @@
 		</div>
 	</div>
 	<!--end-->
+
 	<!--card-->
 	<div class="comp_block_l">
 		<img class="img_l" src="img/food.png" alt="" />

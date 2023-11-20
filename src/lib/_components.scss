@@ -91,6 +91,12 @@
             text-decoration: underline;
         }
     }
+
+            @media (min-width: 991px) {
+                .card-body {
+                    font-size: $font;
+    }
+        }
 }
 
 
@@ -133,6 +139,7 @@
 //form
 container {
     letter-spacing: 1.5px;
+    
 
     h2 {
         color: $textMain;
@@ -145,7 +152,9 @@ container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
         background: $highlight;
-        width: 100vw;
+        box-shadow: $box-light-alt;
+        width: 80vw;
+        margin: 0 10vw;
         padding: 4%;
         text-transform: capitalize;
 
@@ -155,12 +164,14 @@ container {
             display: grid;
             grid-gap: 30px;
             gap: 30px;
+            
         }
 
         box {
             width: 100%;
             position: relative;
             padding: 20px;
+            
         }
 
         input,
@@ -266,27 +277,31 @@ container {
             form {
                 grid-column: 2;
                 grid-row: 4;
+                
             }
 
             container {
                 label {
-                    font-size: 1.5vw;
+                    font-size: $f-lg;
                 }
             }
+
+        input:focus,
+        input:valid,
+        textarea:focus,
+        textarea:valid {
+            font-size: $font;
+        }
         }
     }
 }
 
-//completed work block
-.comp_block,
-.comp_block_l {
-    margin: 10vh 0;
-}
-
+//completed work bloc
 .comp_block {
     @include glassBack();
-    margin: 0;
-    border-radius: 0;
+    margin: 10vh 5vw;
+    border-radius: $bord;
+    box-shadow: $box-light-alt;
 
     h2,
     p,
@@ -317,7 +332,9 @@ container {
 
 .comp_block_l {
     @include glassBack();
-    border-radius: 0;
+    margin: 10vh 5vw;
+    border-radius: $bord;
+    box-shadow: $box-light-alt;
 
     h2,
     p,
@@ -329,7 +346,7 @@ container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        gap: 10px;
+        gap: $pad;
 
         .img_l {
             grid-column: 2 / span 2;

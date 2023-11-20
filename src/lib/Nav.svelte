@@ -101,7 +101,7 @@
 		margin-top: 2vh;
 		margin-bottom: 4vh;
 		list-style: none;
-		font-size: $f-sm;
+		font-size: $font;
 
 		li {
 			p {

@@ -10,7 +10,7 @@ $marg_xxl: 2rem !default;
 $marg_xxxl: 3rem !default;
 
 //block spacing
-$lrg_marg: 15% 25%;
+$lrg_marg: 10% 20%;
 $full_marg: 10% 15%;
 $half_marg:15% 8%;
 $qtr_marg:5% 8%;
@@ -23,6 +23,7 @@ $bord: 1px dotted $extra;
 // shadow
 $box-shadow: 1px 3px -5px hsl(40, 20%, 3%) !default;
 $box-light: 1px 3px 5px hsl(40, 80%, 40%) !default;
+$box-light-alt: 0 0 20px 5px hsl(40, 80%, 40%) !default;
 $mainShadow:0 0 8px 2px #153c8554;
 $text_shadow:2px 2px 2px $backMain;
 
@@ -41,8 +42,7 @@ $f-xxl: 3rem !default;
 $f-xxxl: 5rem !default;
 
 //font stack
-$mainFont:'M PLUS Rounded 1c',
-sans-serif;
+$mainFont: 'Poppins', sans-serif;
 $secondaryFont: 'Rubik',
 sans-serif;
 
