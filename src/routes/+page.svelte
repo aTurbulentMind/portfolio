@@ -39,8 +39,12 @@
 	</p>
 
 	<h3 class="butt">
-		<a href="/contact/">Contact me.</a>
+		<a href="/contact/">Contact</a>
 	</h3>
+
+	<p>
+		I am currently working on a new website. This space is a bit older than my current concepts.
+	</p>
 
 	<!--Completed work-->
 	<a href="/testim/">
@@ -49,10 +53,30 @@
 
 	<!--card-->
 	<div class="comp_block_l">
-		<img class="img_l" src="img/artCountV4.png" alt="" />
-		<div class="comp_title_l"><h2>3D counter-top store</h2></div>
+		<img class="img_l" src="img/wsrd.png" alt="" />
+		<div class="comp_title_l"><h2>West Sound RD(Full stack)</h2></div>
 
 		<div class="comp_body_l">
+			<p style="margin-top: 0;">
+				My partner asked if I could print up some name cards for her roller derby match. I had not
+				made anything to be printed from the web. After messing around I figured the data for the
+				team would be a great chance to connect a database to a website. The project ended up being
+				able to print a selected list as name cards, it has a login system, a user level system to
+				keep some people out of some places, profile info for players, warehouse management and had
+				image storage for profiles or products.
+			</p>
+
+			<a href="https://temp-rd-namelist.netlify.app/">Check it out</a>
+		</div>
+	</div>
+	<!--end-->
+
+	<!--card-->
+	<div class="comp_block">
+		<img class="img" src="img/artCountV4.png" alt="" />
+		<div class="comp_title"><h2>3D counter-top store(3d)</h2></div>
+
+		<div class="comp_body">
 			<p>
 				I took a course on building 3d websites. This was a way for me to start to understand the
 				concepts.
@@ -64,22 +88,9 @@
 	<!--end-->
 
 	<!--card-->
-	<div class="comp_block">
-		<img src="img/shoppo.png" alt="" />
-		<div class="comp_title"><h2>Random Store</h2></div>
-
-		<div class="comp_body">
-			<p>I built this page to learn about making an online storefront.</p>
-
-			<a href="https://sky-high-shop-test.netlify.app/">Check it out</a>
-		</div>
-	</div>
-	<!--end-->
-
-	<!--card-->
 	<div class="comp_block_l">
 		<img class="img_l" src="img/food.png" alt="" />
-		<div class="comp_title_l"><h2>Table Tango</h2></div>
+		<div class="comp_title_l"><h2>Table Tango(Api calling)</h2></div>
 
 		<div class="comp_body_l">
 			<p>

@@ -91,19 +91,6 @@
 				into the future. <br />
 			</div>
 		</div>
-
-		<div class="card">
-			<svg><Grafi /></svg>
-
-			<div class="card-title">Graphic Design</div>
-
-			<div class="card-body">
-				The process of graphic design is the interconnected bridge between the art and means of
-				dispersal to communicate the ideas of your entity. Great design works with a variety of
-				media tools in order to inspire a particular bracket. Video, audio, images and typography
-				are the backbone of graphic design. <br />
-			</div>
-		</div>
 	</div>
 
 	<br />
