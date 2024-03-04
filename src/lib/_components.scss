@@ -151,7 +151,7 @@ container {
     form {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        background: $highlight;
+        background: $backHallow;
         box-shadow: $box-light-alt;
         width: 80vw;
         margin: 0 10vw;

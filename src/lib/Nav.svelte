@@ -59,7 +59,6 @@
 		width: 100vw;
 		display: flex;
 		justify-content: space-between;
-		align-items: center;
 		position: fixed;
 		height: 4rem;
 		z-index: 990;
@@ -129,32 +128,30 @@
 	}
 
 	.burger {
-		height: 46px;
+		height: 30px;
+		width: 30px;
 		aspect-ratio: 1;
 		background-color: transparent;
-
+		margin-top: 1vh;
 		margin-right: 6vw;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		color: #fff;
 
 		&:hover {
 			cursor: pointer;
 			transition: transform 0.1s ease-in-out;
 			transform: scale(1.2);
 		}
-
-		svg {
-			height: 8vh;
-		}
 	}
+
 	.burger > div {
 		height: 2px;
 		width: 14px;
-		background-color: $highlight;
+		background-color: var(--highlight);
 		position: absolute;
 	}
-
 	@media only screen and (min-width: 768px) {
 		.logo {
 			margin-left: 3vw;
