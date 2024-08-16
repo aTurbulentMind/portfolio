@@ -1,16 +1,13 @@
 <script>
-	import Nav from '../lib/Nav.svelte';
-	import Footer from '../lib/Footer.svelte';
+	import '$lib/styles/baseCamp.svelte';
+	import Nav from '$lib/Nav.svelte';
+	import Footer from '$lib/Footer.svelte';
 </script>
 
-<body>
-	<Nav />
-	<slot />
+<Nav />
+<slot />
 
-	<Footer />
-</body>
+<Footer />
 
 <!--svelte-ignore css-unused-selector -->
-<style lang="scss">
-	@import '../src/lib/basecamp';
-</style>
+<style></style>

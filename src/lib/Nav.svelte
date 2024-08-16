@@ -1,5 +1,6 @@
 <script>
-	import Logo from '../lib/svg/logo.svelte';
+	import Logo_Svg from '$lib/svg/logo.svelte';
+
 	let isMenuOpen = false;
 
 	function toggleMenu() {
@@ -10,111 +11,130 @@
 </script>
 
 <div class="navbar">
-	<a href="/" class="logo"><h1>Lantern Light Development</h1></a>
 	<nav class:open={isMenuOpen}>
-		<!--this is the main navigation menu-->
 		<ul>
-			<li on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
-				<a class:current={current === 0} on:click={() => (current = 0)} href="/contact/">Contact</a>
+			<li>
+				<button onclick={() => (isMenuOpen = false)} onkeydown={() => (isMenuOpen = false)}>
+					<a class:current={current === 1} onclick={() => (current = 1)} href="/reviews/">Reviews</a
+					>
+				</button>
 			</li>
-			<li on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
-				<a class:current={current === 1} on:click={() => (current = 1)} href="/services/"
-					>Services</a
-				>
+
+			<li>
+				<button onclick={() => (isMenuOpen = false)} onkeydown={() => (isMenuOpen = false)}>
+					<a class:current={current === 2} onclick={() => (current = 2)} href="/contact/">Contact</a
+					>
+				</button>
 			</li>
-			<li on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
-				<a class:current={current === 2} on:click={() => (current = 2)} href="/reviews/">Reviews</a>
+
+			<li>
+				<button onclick={() => (isMenuOpen = false)} onkeydown={() => (isMenuOpen = false)}>
+					<a class:current={current === 3} onclick={() => (current = 3)} href="/about/">About</a>
+				</button>
 			</li>
-			<li
-				on:click={() => (isMenuOpen = false)}
-				on:keydown={() => (isMenuOpen = false)}
-				class="space"
-			>
-				<a class:current={current === 3} on:click={() => (current = 3)} href="/about/">About</a>
+
+			<li>
+				<button onclick={() => (isMenuOpen = false)} onkeydown={() => (isMenuOpen = false)}>
+					<a class:current={current === 4} onclick={() => (current = 4)} href="/services"
+						>Services</a
+					>
+				</button>
 			</li>
-			<li
-				on:click={() => (isMenuOpen = false)}
-				on:keydown={() => (isMenuOpen = false)}
-				class="space"
-			>
-				<a class:current={current === 4} on:click={() => (current = 4)} href="/">Home</a>
+
+			<li>
+				<button onclick={() => (isMenuOpen = false)} onkeydown={() => (isMenuOpen = false)}>
+					<a class:current={current === 6} onclick={() => (current = 6)} href="/">Home</a>
+				</button>
 			</li>
 		</ul>
 	</nav>
-	<div class="burger" on:click={toggleMenu} on:keydown={() => (isMenuOpen = false)}>
-		<svg> <Logo /></svg>
-	</div>
+	<button onclick={toggleMenu} onkeydown={() => (isMenuOpen = false)}>
+		<div class="burger">
+			<svg> <Logo_Svg /></svg>
+		</div>
+	</button>
 </div>
 
-<!-- svelte-ignore css-unused-selector -->
-<style lang="scss">
-	@import 'basecamp';
-
-	:global(*) {
-		box-sizing: border-box;
-	}
-
+<style>
 	.navbar {
-		background-color: $textTwo;
+		background: var(--gradient);
 		width: 100vw;
 		display: flex;
-		justify-content: space-between;
 		position: fixed;
-		height: 4rem;
-		z-index: 990;
-		box-shadow: $box-shadow;
-		transition: transform 0.2s ease-in-out;
-
-		a {
-			text-shadow: $text_shadow;
-		}
+		top: 0;
+		justify-content: space-between;
+		height: fit-content;
+		transition: var(--transit);
+		border-bottom: 2px solid var(--highlight);
+		box-shadow: var(--mainShadow);
+		z-index: 950;
 	}
 
-	.logo {
-		h1 {
-			font-size: $font;
-		}
+	.navbar button {
+		all: unset;
 	}
 
-	@media only screen and (max-width: 767px) {
-		nav {
-			display: none;
-		}
-
-		nav.open {
-			display: block;
-			position: absolute;
-			top: 100%;
-			left: 0;
-			background-color: $backTre;
-			width: 100%;
-		}
+	.navbar a {
+		color: var(--textMain);
+		transition: var(--transit);
 	}
 
-	ul {
+	.navbar a:hover,
+	.navbar a:focus {
+		color: var(--grabber);
+		text-shadow: var(--box_Light);
+	}
+
+	.navbar ul {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 		align-items: center;
-		gap: 5vh;
-		margin-top: 2vh;
-		margin-bottom: 4vh;
-		list-style: none;
-		font-size: $font;
+		gap: 1rem;
+		margin: 0;
+		padding: 0;
+	}
 
-		li {
-			p {
-				margin-top: 1vh;
-				margin-bottom: 1vh;
-				font-size: $f-sm;
-				color: $highlight;
-				text-shadow: $text_shadow;
-			}
+	.navbar ul li {
+		padding: 3% 0;
+	}
+
+	.navbar ul li button {
+		all: unset;
+		cursor: pointer;
+	}
+
+	.navbar .burger {
+		display: flex;
+		height: fit-content;
+		width: 100%;
+		margin: 1vh 2vw;
+
+		&:hover {
+			cursor: pointer;
+			transform: scale(1.1);
+			transition: transform 0.1s ease-in-out;
+		}
+
+		& svg {
+			width: 10vw;
+			height: 10vh;
 		}
 	}
 
-	.current {
-		position: relative;
+	nav {
+		display: none;
+	}
+
+	nav.open {
+		display: block;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		background: var(--gradientFlip);
+		width: 100vw;
+		border-top: 2px solid var(--highlight);
+		box-shadow: var(--box_Shadow);
 	}
 
 	.current::after {
@@ -124,64 +144,36 @@
 		left: 0;
 		width: 100%;
 		height: 2px;
-		background-color: $extra;
-	}
-
-	.burger {
-		height: 30px;
-		width: 30px;
-		aspect-ratio: 1;
-		background-color: transparent;
-		margin-top: 1vh;
-		margin-right: 6vw;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		color: #fff;
-
-		&:hover {
-			cursor: pointer;
-			transition: transform 0.1s ease-in-out;
-			transform: scale(1.2);
-		}
-	}
-
-	.burger > div {
-		height: 2px;
-		width: 14px;
 		background-color: var(--highlight);
-		position: absolute;
+		box-shadow: 0 0 10px rgba(255, 119, 169, 0.8);
 	}
-	@media only screen and (min-width: 768px) {
-		.logo {
-			margin-left: 3vw;
-		}
 
-		.burger {
-			display: none;
-		}
-
+	/* Laptop styles */
+	@media only screen and (min-width: 1024px) {
 		nav {
-			display: block;
-			position: relative;
-			height: 4rem;
+			display: flex;
 		}
 
 		.navbar {
-			height: 5rem;
+			height: 4rem;
 		}
 
-		.logo {
-			margin-left: 1vw;
+		.navbar .burger {
+			display: none;
 		}
 
-		ul {
-			flex-direction: row;
-			gap: 2vw;
+		.navbar ul {
+			flex-direction: row-reverse;
+			gap: 2rem;
+			margin: 0 15vw;
 		}
+	}
 
-		.space {
-			margin-right: 2vw;
+	/* Larger screens */
+	@media only screen and (min-width: 1440px) {
+		.navbar ul {
+			gap: 3rem;
+			margin: 0 22vw;
 		}
 	}
 </style>
