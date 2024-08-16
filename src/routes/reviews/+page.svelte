@@ -1,62 +1,108 @@
-<!-- Done-ish  -->
 <script>
-	import Wsrd from '$lib/img/wsrd.png';
-	import ArtCount from '$lib/img/artCountV4.png';
-	import RandReci from '$lib/img/food.png';
-	import RandShop from '$lib/img/shoppo.png';
-	import DebtSite from '$lib/img/debtBanner.png';
+	import Five_star from '../../lib/svg/five_star.svelte';
 </script>
 
-<h1>Completed( or mostly completed) work:</h1>
+<body>
+	<h1 class="altFont">Reviews & completed work:</h1>
 
-<section>
-	<article class="LR_block">
-		<img src={Wsrd} alt="West Sound RD project screenshot" />
-		<h3>West Sound RD (Full stack)</h3>
-		<p>
-			My partner asked if I could print up some name cards for her roller derby match. I had not
-			made anything to be printed from the web. After messing around I figured the data for the team
-			would be a great chance to connect a database to a website. The project ended up being able to
-			print a selected list as name cards, it has a login system, a user level system to keep some
-			people out of some places, profile info for players, warehouse management and has image
-			storage for profiles or products.
-		</p>
-		<a class="butt" href="https://temp-rd-namelist.netlify.app/">Check it out</a>
-	</article>
+	<h2>A few completed projects:</h2>
 
-	<article class="LR_block_l">
-		<img src={ArtCount} alt="3D counter-top store project screenshot" />
-		<h3>3D counter-top store (3D)</h3>
-		<p>
-			I took a course on building 3D websites. This was a way for me to start to understand the
-			concepts.
-		</p>
-		<a class="butt" href="https://artisan-countertop-v4.netlify.app/">Check it out</a>
-	</article>
+	<!--Completed work-->
 
-	<article class="LR_block">
-		<img src={RandReci} alt="Table Tango project screenshot" />
-		<h3>Table Tango (API calling)</h3>
-		<p>
-			I got tired of trying to figure out dinner. So I made a random recipe generator to get better
-			at learning how to display fetched data.
-		</p>
-		<a class="butt" href="https://table-tango.netlify.app/">Check it out</a>
-	</article>
+	<!--card-->
+	<div class="comp_block_l">
+		<img class="img_l" src="img/artCountV4.png" alt="" />
+		<div class="comp_title_l"><h2>3D counter-top store</h2></div>
 
-	<article class="LR_block_l">
-		<img src={RandShop} alt="" />
-		<h3>Random Store</h3>
-		<p>I built this page to learn about making an online storefront.</p>
-		<a class="butt" href="https://sky-high-shop-test.netlify.app/">Check it out</a>
-	</article>
+		<div class="comp_body_l">
+			<p>
+				I took a course on building 3d websites. This was a way for me to start to understand the
+				concepts.
+			</p>
 
-	<article class="LR_block">
-		<img src={DebtSite} alt="" />
-		<h3>DEBT$NET</h3>
-		<p>
-			The original site was made in 1995 and sure felt like it. So I brought them into the future.
-		</p>
-		<a class="butt" href="https://debtnet5build.netlify.app/">Check it out</a>
-	</article>
-</section>
+			<a href="https://artisan-countertop-v4.netlify.app/">Check it out</a>
+		</div>
+	</div>
+	<!--end-->
+
+	<!--card-->
+	<div class="comp_block">
+		<img src="img/shoppo.png" alt="" />
+		<div class="comp_title"><h2>Random Store</h2></div>
+
+		<div class="comp_body">
+			<p>I built this page to learn about making an online storefront.</p>
+
+			<a href="https://sky-high-shop-test.netlify.app/">Check it out</a>
+		</div>
+	</div>
+	<!--end-->
+
+	<!--card-->
+	<div class="comp_block_l">
+		<img class="img_l" src="img/food.png" alt="" />
+		<div class="comp_title_l"><h2>Table Tango</h2></div>
+
+		<div class="comp_body_l">
+			<p>
+				I got tired of trying to figure out dinner. So I made a random recipe generator to get
+				better at learning how to display fetched data.
+			</p>
+
+			<a href="https://table-tango.netlify.app/">Check it out</a>
+		</div>
+	</div>
+	<!--end-->
+
+	<!--card-->
+	<div class="comp_block">
+		<img src="img/counterToppy.png" alt="" />
+		<div class="comp_title"><h2>Artistic Artisan Counters</h2></div>
+
+		<div class="comp_body">
+			<p>
+				Laurie at AAC had no website at all. I used it as a first attempt to add 3d objects to a
+				page.
+			</p>
+
+			<a href="https://superfancycounterbuild.netlify.app/">Check it out</a>
+		</div>
+	</div>
+	<!--end-->
+
+	<!--card-->
+	<div class="comp_block_l">
+		<img class="img_l" src="img/landy.png" alt="" />
+		<div class="comp_title_l"><h2>Toms Yard & Bed</h2></div>
+
+		<div class="comp_body_l">
+			<p>
+				Tom is a friend who has been building his own landscaping company for a while. I figured I
+				could help by building him a website.
+			</p>
+
+			<a href="https://tomscompanybuild.netlify.app/">Check it out</a>
+		</div>
+	</div>
+	<!--end-->
+
+	<!--card-->
+	<div class="comp_block">
+		<img class="img" src="img/debtBanner.png" alt="" />
+		<div class="comp_title"><h2>DEBT$NET</h2></div>
+
+		<div class="comp_body">
+			<p>
+				The original site was made in 1995 and sure felt like it. So I brought them into the future.
+			</p>
+
+			<a href="https://debtnet5build.netlify.app/">Check it out</a>
+		</div>
+	</div>
+	<!--end-->
+</body>
+
+<!--svelte-ignore css-unused-selector -->
+<style lang="scss">
+	@import '../src/lib/basecamp';
+</style>
