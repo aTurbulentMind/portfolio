@@ -1,0 +1,1 @@
+const s=""+new URL("../assets/wsrd.Da5-vRPN.png",import.meta.url).href,t=""+new URL("../assets/artCountV4.DzpFQ0Sx.png",import.meta.url).href,e=""+new URL("../assets/food.DKYcc1nR.png",import.meta.url).href;export{t as A,e as R,s as W};
