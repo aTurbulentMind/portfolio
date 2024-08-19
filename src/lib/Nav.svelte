@@ -14,36 +14,38 @@
 	<nav class:open={isMenuOpen}>
 		<ul>
 			<li>
-				<button onclick={() => (isMenuOpen = false)} onkeydown={() => (isMenuOpen = false)}>
-					<a class:current={current === 1} onclick={() => (current = 1)} href="/reviews/">Reviews</a
+				<button on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
+					<a class:current={current === 1} on:click={() => (current = 1)} href="/reviews/"
+						>Reviews</a
 					>
 				</button>
 			</li>
 
 			<li>
-				<button onclick={() => (isMenuOpen = false)} onkeydown={() => (isMenuOpen = false)}>
-					<a class:current={current === 2} onclick={() => (current = 2)} href="/contact/">Contact</a
+				<button on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
+					<a class:current={current === 2} on:click={() => (current = 2)} href="/contact/"
+						>Contact</a
 					>
 				</button>
 			</li>
 
 			<li>
-				<button onclick={() => (isMenuOpen = false)} onkeydown={() => (isMenuOpen = false)}>
-					<a class:current={current === 3} onclick={() => (current = 3)} href="/about/">About</a>
+				<button on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
+					<a class:current={current === 3} on:click={() => (current = 3)} href="/about/">About</a>
 				</button>
 			</li>
 
 			<li>
-				<button onclick={() => (isMenuOpen = false)} onkeydown={() => (isMenuOpen = false)}>
-					<a class:current={current === 4} onclick={() => (current = 4)} href="/services"
+				<button on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
+					<a class:current={current === 4} on:click={() => (current = 4)} href="/services"
 						>Services</a
 					>
 				</button>
 			</li>
 
 			<li>
-				<button onclick={() => (isMenuOpen = false)} onkeydown={() => (isMenuOpen = false)}>
-					<a class:current={current === 6} onclick={() => (current = 6)} href="/">Home</a>
+				<button on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
+					<a class:current={current === 6} on:click={() => (current = 6)} href="/">Home</a>
 				</button>
 			</li>
 		</ul>
