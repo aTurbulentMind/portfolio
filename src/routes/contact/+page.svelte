@@ -51,9 +51,4 @@
 
 <!--svelte-ignore css-unused-selector -->
 <style>
-	container {
-		form {
-			margin-bottom: 10vh;
-		}
-	}
 </style>
