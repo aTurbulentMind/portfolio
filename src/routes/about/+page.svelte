@@ -1,10 +1,16 @@
-<!-- Done-ish -->
-
 <script>
 	import ItsMe from '$lib/img/myFace.jpg';
 	import Nature1 from '$lib/img/nature1.jpg';
-	import Nature2 from '$lib/img/nature1.jpg';
+	import Nature2 from '$lib/img/nature2.jpg';
 </script>
+
+<svelte:head>
+	<title>About page</title>
+</svelte:head>
+
+<div class=" head_Line">
+	<h1>About:</h1>
+</div>
 
 <img class="face" src={ItsMe} alt="its my face" />
 

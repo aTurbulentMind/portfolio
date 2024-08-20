@@ -7,7 +7,13 @@
 	import DebtSite from '$lib/img/debtBanner.png';
 </script>
 
-<h1>Completed( or mostly completed) work:</h1>
+<svelte:head>
+	<title>Completed Work page</title>
+</svelte:head>
+
+<div class="head_Line">
+	<h1>Completed( or mostly completed) work:</h1>
+</div>
 
 <section>
 	<article class="LR_block">

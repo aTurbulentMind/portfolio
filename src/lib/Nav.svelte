@@ -1,4 +1,5 @@
 <script>
+	import Logo from './svg/logo.svelte';
 	import Logo_Svg from '$lib/svg/logo.svelte';
 
 	let isMenuOpen = false;
@@ -15,34 +16,35 @@
 		<ul>
 			<li>
 				<button on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
-					<a class:current={current === 1} on:click={() => (current = 1)} href="/reviews/"
-						>Reviews</a
-					>
-				</button>
-			</li>
-
-			<li>
-				<button on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
-					<a class:current={current === 2} on:click={() => (current = 2)} href="/contact/"
-						>Contact</a
-					>
-				</button>
-			</li>
-
-			<li>
-				<button on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
-					<a class:current={current === 3} on:click={() => (current = 3)} href="/about/">About</a>
-				</button>
-			</li>
-
-			<li>
-				<button on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
-					<a class:current={current === 4} on:click={() => (current = 4)} href="/services"
+					<a class:current={current === 0} on:click={() => (current = 0)} href="/services/"
 						>Services</a
 					>
 				</button>
 			</li>
-
+			<!-- <li>
+				<button on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
+					<a class:current={current === 1} on:click={() => (current = 1)} href="/reviews/"
+						>Reviews</a
+					>
+				</button>
+			</li> -->
+			<li>
+				<button on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
+					<a class:current={current === 2} on:click={() => (current = 2)} href="/contact">Contact</a
+					>
+				</button>
+			</li>
+			<li>
+				<button on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
+					<a class:current={current === 3} on:click={() => (current = 3)} href="/about">About</a>
+				</button>
+			</li>
+			<li>
+				<button on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
+					<a class:current={current === 5} on:click={() => (current = 5)} href="/reviews">Reviews</a
+					>
+				</button>
+			</li>
 			<li>
 				<button on:click={() => (isMenuOpen = false)} on:keydown={() => (isMenuOpen = false)}>
 					<a class:current={current === 6} on:click={() => (current = 6)} href="/">Home</a>
@@ -50,7 +52,7 @@
 			</li>
 		</ul>
 	</nav>
-	<button onclick={toggleMenu} onkeydown={() => (isMenuOpen = false)}>
+	<button on:click={toggleMenu} on:keydown={() => (isMenuOpen = false)}>
 		<div class="burger">
 			<svg> <Logo_Svg /></svg>
 		</div>
@@ -171,11 +173,11 @@
 		}
 	}
 
-	/* Larger screens */
+	/* Larger screens 
 	@media only screen and (min-width: 1440px) {
 		.navbar ul {
 			gap: 3rem;
 			margin: 0 22vw;
 		}
-	}
+	}*/
 </style>

@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Twitt from '../lib/svg/birdy.svelte';
-	import Insta from '../lib/svg/insta.svelte';
-	import FaBoo from '../lib/svg/faBoo.svelte';
+	import Twitt from '$lib/svg/birdy.svelte';
+	import Insta from '$lib/svg/insta.svelte';
+	import FaBoo from '$lib/svg/faBoo.svelte';
 
 	import Wsrd from '$lib/img/wsrd.png';
 	import ArtCount from '$lib/img/artCountV4.png';
@@ -12,7 +12,9 @@
 
 <hero-banner id="hero-banner">
 	<banner-text>Lantern Light Development</banner-text>
-	<banner-phrase>"Awake and busy into the lantern light, developing your dreams."</banner-phrase>
+	<banner-phrase class="glassBack"
+		>"Awake and busy into the lantern light, developing your dreams."</banner-phrase
+	>
 
 	<!--entry banner-->
 
@@ -25,6 +27,10 @@
 	</coaButt2>
 </hero-banner>
 
+<svelte:head>
+	<title>Home</title>
+</svelte:head>
+
 <section>
 	<h2>I'm here to help</h2>
 	<p>
@@ -34,15 +40,14 @@
 		their biggest dreams in the ways that I can. Do not hesitate to reach out with any questions you
 		may have.
 	</p>
-	<a href="/contact/" class="butt"
-		>Reach out so we can start increasing your revenue as soon as we can.</a
-	>
+	<a href="/contact/" class="butt marg_Also">Reach out </a>
+	<p>So we can start increasing your revenue as soon as we can.</p>
 </section>
 
 <section class="glassBack">
 	<h2>About Me</h2>
 	<p>
-		I have built websites and studied web development for more than five years. For the last two
+		I have built websites and studied web development for more than six years. For the last two
 		years I have been working at a software company which led to learning how to build fully
 		encompassing websites. I need to put my effort to use and help this area as much as I can.
 	</p>
@@ -55,11 +60,7 @@
 		<h3>West Sound RD (Full stack)</h3>
 		<p>
 			My partner asked if I could print up some name cards for her roller derby match. I had not
-			made anything to be printed from the web. After messing around I figured the data for the team
-			would be a great chance to connect a database to a website. The project ended up being able to
-			print a selected list as name cards, it has a login system, a user level system to keep some
-			people out of some places, profile info for players, warehouse management and has image
-			storage for profiles or products.
+			made anything to be printed from the web. I did a lot more.
 		</p>
 		<a class="butt" href="https://temp-rd-namelist.netlify.app/">Check it out</a>
 	</article>
@@ -119,9 +120,7 @@
 
 	banner-text {
 		display: grid;
-		grid-column: span 2;
-		font-size: var(--f_Xxxl);
-		color: var(--textMain);
+		font-size: var(--f_Xxl);
 		font-weight: bold;
 		font-family: var(--altFont);
 		margin-left: 8vw;
@@ -129,20 +128,65 @@
 
 	banner-phrase {
 		display: grid;
-		font-size: var(--f_Xxl);
-		/* font-weight: bold; */
-		margin-left: var(--marg_Xxl);
+		font-size: var(--f_Xl);
+		margin-left: var(--marg_Xl);
 		align-self: center;
 		justify-self: center;
-		z-index: 999;
 	}
 
 	coaButt2 {
 		display: grid;
+
+		& svg {
+			width: 10vw;
+			height: 10vh;
+		}
 	}
 
+	@media only screen and (min-width: 767px) {
+		banner-text {
+			font-size: var(--f_Xxxl);
+		}
+
+		banner-phrase {
+			display: grid;
+			margin-left: var(--marg_Xl);
+			align-self: center;
+			justify-self: center;
+		}
+
+		coaButt2 {
+			& svg {
+				width: 5vw;
+				height: 5vh;
+			}
+		}
+	}
+
+	@media only screen and (min-width: 1024px) {
+		banner-text {
+			grid-column: span 2;
+			margin-top: var(--marg_Xl);
+		}
+
+		banner-phrase {
+			grid-column: span 2;
+			width: 80%;
+			padding: var(--qtr_Sd_Marg);
+			margin-top: var(--marg_Xl);
+		}
+
+		coaButt2 {
+			grid-column: 2;
+			margin-right: 5vw;
+
+			& svg {
+				width: 5vw;
+				height: 5vh;
+			}
+		}
+	}
 	/* 
-	@media only screen and (min-width: 767px) {		
 		art-banner {
 			& banner-text {
 				padding-top: var(--pad);

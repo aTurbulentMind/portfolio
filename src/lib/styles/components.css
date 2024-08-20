@@ -1,10 +1,42 @@
 .glassBack {
-    background: var(--backHallow);
+    background: var(--back_Deep_Hallow);
     box-shadow: var(--box_Shadow);
     backdrop-filter: blur(1.5px);
     --webkit-backdrop-filter: blur(1.5px);
     border:var(--bord);
+    border-radius: var(--rad);
 }
+
+
+
+/* Headline */
+	.head_Line {
+		position: relative;
+		width: fit-content;
+		margin: 15vh 4vw;
+        padding: 0 4vw;
+		background: var(--backMain);
+		border: var(--bord);
+		border-radius: var(--rad);
+
+		& h1 {
+			font-size: var(--f_Xl);
+            text-transform: capitalize;
+
+            @media (min-width: 768px) {
+                padding: 1rem;
+                margin-left: 0;
+            } 
+            
+            @media (min-width: 1024px) {
+                padding: 1rem;
+                margin-left: 0;
+            } 
+            @media (min-width: 1440px) {
+                                padding: 1.5rem;
+            } 
+        }
+	}
 
 /* grid block */
 .LR_block, .LR_block_l {
@@ -22,13 +54,33 @@
         grid-template-rows: 1fr 1fr;
         gap: var(--pad);
 }
+
+    @media only screen and (min-width: 1024px) {
+    width: 80vw;
+    margin: 10vh 12.5vw;
+    }
 }
 
 .LR_block{
         @media only screen and (min-width: 780px) {
         &  img {
             grid-column: 1 / span 2;
-            grid-row: 1 / span 3;
+            grid-row: 1 / span 2;
+        }
+    }
+
+    @media only screen and (min-width: 1024px) {
+        &  img {
+            grid-column: 1 / span 3;
+            grid-row: 1 / span 2;
+        }
+
+        & h3, p {
+            grid-column: 1 / span 3;
+        }
+
+        & a {
+            grid-column: 2;
         }
     }
 }
@@ -73,6 +125,9 @@
     
     
     & a{
+            display: flex; /* Add this line */
+    justify-content: center; /* Add this line */
+    align-items: center; /* Add this line */
         position: relative;
         padding: var(--pad);
         margin: 0 4%;
@@ -82,10 +137,11 @@
         transition: var(--tSpeed);
         -webkit-box-reflect: below 1px linear-gradient(transparent, #0003);
     }
-        & svg {
+        
+    & svg {
             width: 3vw;
             height: 3vh;
-}
+    }
 
 & a:hover {
         background: #e42886;
@@ -142,7 +198,27 @@
 & a:nth-child(3) {
         filter: hue-rotate(270deg);
     }
+
+    @media (min-width: 1024px) {
+
+    & a {
+        height: 12vh;
+        width: 8vw;
+    }
+        
+    & a:before, & a:after {
+        width: 2vw;
+        height: 2vh;
+    }
+
+    & svg {
+        width: 6vw;
+        height: 6vh;
+    }
+        }
 }
+
+
 
 
 /* form 

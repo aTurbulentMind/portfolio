@@ -13,6 +13,8 @@
 
 /* page spacing */
 --qtr_Marg:5% 8%;
+--qtr_Tp_Marg:5% 0;
+--qtr_Sd_Marg:0 8%;
 --half_Marg:15% 8%;
 --full_Marg: 10% 15%;
 --lrg_Marg: 10% 20%;

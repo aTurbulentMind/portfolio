@@ -1,6 +1,10 @@
-<!-- Done-ish  -->
+<svelte:head>
+	<title>Service page</title>
+</svelte:head>
 
-<h1>Services:</h1>
+<div class=" head_Line">
+	<h1>Services:</h1>
+</div>
 
 <p>
 	The price of the product varies between the scope of the project. I'm an economic human and always
@@ -126,9 +130,10 @@
 		}
 	}
 
-	@media only screen and (min-width: 1080px) {
+	@media only screen and (min-width: 1024px) {
 		priceBox {
-			grid-template-columns: 1fr 1fr 1fr;
+			width: 100vw;
+			margin-left: 2.5vw;
 		}
 
 		.grid {
