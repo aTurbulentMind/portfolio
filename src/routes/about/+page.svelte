@@ -4,10 +4,6 @@
 	import Nature2 from '$lib/img/nature2.jpg';
 </script>
 
-<svelte:head>
-	<title>About page</title>
-</svelte:head>
-
 <div class=" head_Line">
 	<h1>About:</h1>
 </div>

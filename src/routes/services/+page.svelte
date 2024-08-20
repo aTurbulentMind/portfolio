@@ -1,7 +1,3 @@
-<svelte:head>
-	<title>Service page</title>
-</svelte:head>
-
 <div class=" head_Line">
 	<h1>Services:</h1>
 </div>

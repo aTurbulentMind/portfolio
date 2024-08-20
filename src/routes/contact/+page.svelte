@@ -4,10 +4,6 @@
 	import FaBoo from '$lib/svg/faBoo.svelte';
 </script>
 
-<svelte:head>
-	<title>Contact page</title>
-</svelte:head>
-
 <div class=" head_Line">
 	<h1>Contact:</h1>
 </div>

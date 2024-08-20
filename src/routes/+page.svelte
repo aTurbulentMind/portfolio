@@ -27,10 +27,6 @@
 	</coaButt2>
 </hero-banner>
 
-<svelte:head>
-	<title>Home</title>
-</svelte:head>
-
 <section>
 	<h2>I'm here to help</h2>
 	<p>
