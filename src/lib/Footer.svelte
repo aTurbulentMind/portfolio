@@ -1,37 +1,105 @@
-<footer>
-	<p>
-		Produced by <a href="https://www.lanternlightdevelopment.com/"> Lantern Light Development</a>
-	</p>
-</footer>
+<script>
+	import Twitt from './svg/birdy.svelte';
+	import Insta from './svg/insta.svelte';
+	import FaBoo from './svg/faBoo.svelte';
+</script>
 
-<!-- svelte-ignore css-unused-selector -->
-<style>
-	footer {
-		background-color: var(--back_Alt);
-		display: none;
-		justify-content: center;
-		position: relative;
-		bottom: 0;
-		width: 100vw;
-		height: 4vh;
-	}
+<div class="footer">
+	<footBox>
+		<ul>
+			<li><a href="/">HOME</a></li>
+			<li><a href="/contact/">CONTACT</a></li>
+			<li><a href="/services/">SERVICES</a></li>
+		</ul>
+		<ul>
+			<li><a href="/reviews/">REVIEWS</a></li>
+			<li><a href="/about/">ABOUT</a></li>
+			<!--		<li><a href="/test/">test</a></li>-->
+		</ul>
+	</footBox>
+	<!--
+	<footBox>
+		<socBox>
+			<a href="/https://www.facebook.com/profile.php?id=100078803221612/"><svg> <FaBoo /></svg></a>
+			<a href="https://twitter.com/LanternLightDev/"><svg> <Twitt /> </svg></a>
+			<a href="https://www.instagram.com/lanternlightdevelopment/"><svg> <Insta /></svg></a>
+		</socBox>
+	</footBox>-->
+</div>
 
-	p {
+<!--svelte-ignore css-unused-selector -->
+<style lang="scss">
+	@import 'basecamp';
+
+	.footer {
 		display: flex;
+		width: 100vw;
+		background: $gradient;
+		z-index: 999;
+		text-shadow: $text_shadow;
+		color: $extra;
+		transition: transform 0.2s ease-in-out;
+		justify-content: space-between;
 		align-items: center;
-		justify-content: center;
-		font-size: var(--f_sm);
-		margin: var(--marg);
-		gap: 10px;
+		height: fit-content;
+
+		footBox {
+			margin: 8% 0 0 0;
+
+			ul {
+				width: 100vw;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+				list-style: none;
+
+				li {
+					margin: $qtr_marg;
+					padding: $pad_sm;
+
+					a {
+						color: $extra;
+						font-size: $font;
+					}
+				}
+			}
+		}
+
+		socBox {
+			display: flex;
+			a {
+				font-size: 1vh;
+				flex-direction: row;
+				margin: 0 $marg;
+				Svg {
+					width: 10vw;
+				}
+			}
+		}
 	}
 
-	a {
-		color: var(--back_Main);
-	}
+	@media (min-width: 780px) {
+		//foots
+		.footer {
+			margin-bottom: 0;
+			footBox {
+				ul {
+					li {
+						a {
+							font-size: $f-lg;
+						}
+					}
+				}
+			}
 
-	@media only screen and (min-width: 980px) {
-		p {
-			font-size: var(--f_m);
+			socBox {
+				a {
+					Svg {
+						width: 15vw;
+					}
+				}
+			}
 		}
 	}
 </style>
