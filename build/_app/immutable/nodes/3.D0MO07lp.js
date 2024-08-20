@@ -1,9 +1,0 @@
-import{q as p,x as u,t as e,u as d,v as c,$ as f,z as v}from"../chunks/disclose-version.n8QZLT3L.js";import{h as w}from"../chunks/svelte-head.oU_rUGDd.js";import{a}from"../chunks/attributes.DmEUqDhS.js";const b=""+new URL("../assets/myFace.C1997zoo.jpg",import.meta.url).href,y=""+new URL("../assets/nature1.CB9CZlpn.jpg",import.meta.url).href,k=""+new URL("../assets/nature2.DtsJwsIa.jpg",import.meta.url).href;var I=c(`<div class=" head_Line"><h1>About:</h1></div> <img class="face svelte-8bq1q4" alt="its my face"> <h1>Joel Rivers</h1> <p>I am a thirty-four year old from Western Washington.The Kitsap area and community of Washington
-	make it easy to live here and never leave. Travel is fun but home is the forest surrounding the
-	Puget Sound.</p> <img alt="a sunny day on top of a mountain at a lake. It is serene" class="svelte-8bq1q4"> <p>I picked up website development a few years ago. While working in a retail store. I spent down
-	time learning about building a new website for the shop. Something magic happened and I easily
-	found myself addicted. One realm of learning bled into another. As the wealth of knowledge grew,
-	so did the interest in learning more. I've done it for fun, but I want to use my skills to help
-	people who need it.</p> <p>I do spend some time with fun things like going to concerts or playing video games. To get away
-	and reset the brain. Hiking and backpacking is another nice escape from being immersed in
-	technology. There is something magic living in the wild serenity of the Pacific Northwest.</p> <img alt="sunrays cast though morning fog" class="svelte-8bq1q4">`,1);function T(r){var i=I();w(_=>{f.title="About page"});var t=p(i);u(t),v(t);var n=e(e(t,!0));a(n,"src",b);var o=e(e(n,!0)),m=e(e(o,!0)),s=e(e(m,!0));a(s,"src",y);var l=e(e(s,!0)),h=e(e(l,!0)),g=e(e(h,!0));a(g,"src",k),d(r,i)}export{T as component};
