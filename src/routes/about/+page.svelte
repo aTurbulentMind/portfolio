@@ -43,11 +43,11 @@
 		margin: 0 10%;
 	}
 
-	/* Tablet Size 
+	/* Tablet Size */
 	@media (min-width: 768px) {
 		.face {
 			width: 35%;
 			margin: 4% 35%;
 		}
-	} */
+	}
 </style>

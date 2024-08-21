@@ -126,8 +126,8 @@
 		}
 	}
 
-	/* Tablet  SIze  
-	@media only screen and (min-width: 767px) {
+	/* Tablet  SIze  */
+	@media only screen and (min-width: 768px) {
 		banner-text {
 			font-size: var(--f_Xxxl);
 		}
@@ -138,17 +138,9 @@
 			align-self: center;
 			justify-self: center;
 		}
-
-		coaButt2 {
-			& svg {
-				width: 5vw;
-				height: 5vh;
-			}
-		}
 	}
-*/
 
-	/* Laptop Size  
+	/* Laptop Size  */
 	@media only screen and (min-width: 1024px) {
 		banner-text {
 			grid-column: span 2;
@@ -161,16 +153,5 @@
 			padding: var(--qtr_Sd_Marg);
 			margin-top: var(--marg_Xl);
 		}
-
-		coaButt2 {
-			grid-column: 2;
-			margin-right: 5vw;
-
-			& svg {
-				width: 5vw;
-				height: 5vh;
-			}
-		}
 	}
-*/
 </style>

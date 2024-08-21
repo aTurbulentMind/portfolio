@@ -120,14 +120,14 @@
 		margin-left: 20vw;
 	}
 
-	/* Tablet Size 
+	/* Tablet Size */
 	@media only screen and (min-width: 766px) {
 		priceBox {
 			grid-template-columns: 1fr 1fr;
 		}
-	} */
+	}
 
-	/* Laptop Size 
+	/* Laptop Size */
 
 	@media only screen and (min-width: 1024px) {
 		priceBox {
@@ -138,5 +138,5 @@
 		.grid {
 			grid-template-columns: 1fr 1fr;
 		}
-	} */
+	}
 </style>

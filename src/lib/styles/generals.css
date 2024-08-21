@@ -67,7 +67,7 @@ ul {
     list-style-type: none;
 }
 
-    /* Tablet Screen 
+    /* Tablet Screen  */
 @media (min-width: 767px) {
     h1,
     h2,
@@ -76,9 +76,9 @@ ul {
     p {
         margin: var(--full_Marg);
     }
-} */
+}
 
-    /* Desktop Screen 
+    /* Desktop Screen */
 @media (min-width: 1024px) {
     h1,
     h2,
@@ -87,4 +87,4 @@ ul {
 .marg_Also {
         margin: var(--lrg_Marg);
     }
-} */
+} 
