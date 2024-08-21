@@ -1,6 +1,6 @@
 {
-	"name": "lantern_light_development",
-	"version": "1.1.5",
+	"name": "lanternlightdevelopment",
+	"version": "3.673.1",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
