@@ -153,5 +153,10 @@
 			padding: var(--qtr_Sd_Marg);
 			margin-top: var(--marg_Xl);
 		}
+
+		coaButt2 {
+			grid-column: 2;
+			margin-right: 5vw;
+		}
 	}
 </style>

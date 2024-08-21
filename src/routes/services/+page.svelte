@@ -133,10 +133,7 @@
 		priceBox {
 			width: 100vw;
 			margin-left: 2.5vw;
-		}
-
-		.grid {
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: 1fr 1fr 1fr;
 		}
 	}
 </style>
