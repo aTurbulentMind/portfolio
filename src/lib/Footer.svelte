@@ -7,7 +7,7 @@
 <!-- svelte-ignore css-unused-selector -->
 <style>
 	footer {
-		background-color: var(--back_Alt);
+		background-color: var(--backTwo);
 		display: none;
 		justify-content: center;
 		position: relative;
@@ -20,18 +20,18 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		font-size: var(--f_sm);
+		font-size: var(--f_Sm);
 		margin: var(--marg);
 		gap: 10px;
 	}
 
 	a {
-		color: var(--back_Main);
+		color: var(--backMain);
 	}
 
 	@media only screen and (min-width: 980px) {
 		p {
-			font-size: var(--f_m);
+			font-size: var(--f_M);
 		}
 	}
 </style>
